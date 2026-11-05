@@ -36,9 +36,9 @@ Check that `https://your-service.onrender.com/api/health` returns JSON and repor
 
 ## 3. Route frontend API requests through Render
 
-The frontend calls relative `/api/...` URLs. The proxy in `vite.config.ts` is for local development only, so production needs a Vercel rewrite.
+The frontend calls relative `/api/...` URLs. The proxy in `vite.config.ts` is for local development only, so production uses the Vercel rewrite configured in the repository-root `vercel.json`. It forwards `/api/...` requests to `https://jansakshi.onrender.com`.
 
-Create `vercel.json` in the repository root, replacing the example host with the Render URL from the previous step:
+If the Render service URL changes, update the destination in `vercel.json`:
 
 ```json
 {
@@ -51,7 +51,7 @@ Create `vercel.json` in the repository root, replacing the example host with the
 }
 ```
 
-Commit and push this file. The rewrite keeps browser requests on the Vercel domain while forwarding API traffic to Render.
+The rewrite keeps browser requests on the Vercel domain while forwarding API traffic to Render.
 
 ## 4. Deploy the frontend to Vercel
 
