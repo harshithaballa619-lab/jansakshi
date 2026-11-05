@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_dashboard" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{colors:{"outline":"#737783","primary-fixed":"#d9e2ff","surface-variant":"#d8e4f3","primary":"#003178","background":"#f7f9ff","primary-fixed-dim":"#b0c6ff","error-container":"#ffdad6","on-surface":"#111d27","on-tertiary-fixed-variant":"#0c5216","on-primary-fixed-variant":"#00429c","surface-container-highest":"#d8e4f3","on-error":"#ffffff","secondary-fixed":"#ffdbcf","surface-container-low":"#edf4ff","surface-container-lowest":"#ffffff","on-secondary-fixed-variant":"#802a00","surface-container-high":"#dee9f8","on-secondary":"#ffffff","on-secondary-container":"#531800","on-primary":"#ffffff","on-primary-container":"#a1bbff","tertiary-fixed-dim":"#91d78a","secondary-fixed-dim":"#ffb59a","surface-tint":"#2b5bb5","on-error-container":"#93000a","tertiary-fixed":"#acf4a4","surface-container":"#e3effe","error":"#ba1a1a","on-tertiary-container":"#88cd81","inverse-on-surface":"#e8f2ff","surface-dim":"#d0dbea","primary-container":"#0d47a1","secondary-container":"#fc6018","inverse-primary":"#b0c6ff","tertiary-container":"#14581b","on-surface-variant":"#434652","on-primary-fixed":"#001945","inverse-surface":"#26313d","on-background":"#111d27","secondary":"#a83900","on-tertiary":"#ffffff","outline-variant":"#c3c6d4","surface":"#f7f9ff","on-tertiary-fixed":"#002203","on-secondary-fixed":"#380d00","tertiary":"#003f0b","surface-bright":"#f7f9ff"},borderRadius:{"DEFAULT":"0.25rem","lg":"0.5rem","xl":"0.75rem","full":"9999px"},spacing:{"space-sm":"0.5rem","gutter":"1rem","space-md":"1rem","margin-desktop":"2.5rem","margin":"1rem","space-xs":"0.25rem","gutter-desktop":"1.5rem","space-xl":"2.5rem","space-lg":"1.5rem"},fontFamily:{"headline-xl-mobile":["Public Sans"],"body-md":["Public Sans"],"label-md":["Public Sans"],"headline-lg-mobile":["Public Sans"],"headline-lg":["Public Sans"],"headline-md":["Public Sans"],"headline-sm":["Public Sans"],"body-lg":["Public Sans"],"label-sm":["Public Sans"],"headline-xl":["Public Sans"],"label-lg":["Public Sans"],"body-sm":["Public Sans"]},fontSize:{"headline-xl-mobile":["24px",{"lineHeight":"32px","fontWeight":"700"}],"body-md":["15px",{"lineHeight":"22px","fontWeight":"400"}],"label-md":["13px",{"lineHeight":"18px","fontWeight":"600"}],"headline-lg-mobile":["20px",{"lineHeight":"28px","fontWeight":"700"}],"headline-lg":["24px",{"lineHeight":"32px","fontWeight":"700"}],"headline-md":["20px",{"lineHeight":"28px","fontWeight":"600"}],"headline-sm":["18px",{"lineHeight":"26px","fontWeight":"600"}],"body-lg":["16px",{"lineHeight":"24px","fontWeight":"400"}],"label-sm":["11px",{"lineHeight":"14px","letterSpacing":"0.5px","fontWeight":"700"}],"headline-xl":["32px",{"lineHeight":"40px","letterSpacing":"-0.5px","fontWeight":"700"}],"label-lg":["14px",{"lineHeight":"20px","letterSpacing":"0.5px","fontWeight":"700"}],"body-sm":["13px",{"lineHeight":"18px","fontWeight":"400"}]}}}};</script></head><body class="bg-background font-body-md text-on-surface antialiased"><aside class="fixed left-0 top-0 h-full w-64 bg-surface-container-lowest border-r border-surface-variant z-50 flex flex-col"><div class="h-1 w-full flex"><div class="h-full w-1/3 bg-[#d97706]"></div><div class="h-full w-1/3 bg-[#ffffff]"></div><div class="h-full w-1/3 bg-[#15803d]"></div></div><div class="p-space-md border-b border-surface-variant flex items-center gap-space-sm"><img alt="JanSakshi AI Civic Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAs_Ptbox78onUmD7acB7M58SjrdWPS7OtOe5Wk9veIBnYaY9AMaEuvh6wKyxXPxbsCEpzJ_T9n2fRB73MaU17cItJEBLJWzXWXgApVw4-_vnWaXy3N3PSE_mRGwmpSjrWscXwOqaitRXOuerkiIF5na-mwegHs4wwmIN04JRMWN6JXIwOnYwKaUvJbzS9lvdP_ohI4vPLNjO70T4MOdcDBqPxTA6X_YzmaapRFcuU"/><div class="flex flex-col"><span class="text-label-md font-label-md font-bold text-primary">JanSakshi AI</span><span class="text-label-sm font-label-sm text-on-surface-variant">Administrative Desk</span></div></div><div class="px-space-md py-space-xs bg-surface-container-low text-label-sm font-label-sm text-on-surface-variant border-b border-surface-variant flex items-center justify-between"><span>Jurisdiction</span><span class="font-bold text-primary">Visakhapatnam</span></div><nav class="flex-1 p-space-md flex flex-col gap-1 overflow-y-auto" data-active-classes="bg-primary-container text-on-primary font-bold"><a aria-current="page" class="flex items-center gap-space-sm px-space-md py-space-sm rounded transition-colors bg-primary-container text-on-primary font-bold" data-path="officer-dashboard" href="#"><span class="material-symbols-outlined text-[20px]">dashboard</span>Officer Dashboard</a><a class="flex items-center gap-space-sm px-space-md py-space-sm text-label-md font-label-md text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface rounded transition-colors" data-path="grievance-triage" href="#"><span class="material-symbols-outlined text-[20px]">assignment_late</span>Triage &amp; Allocation</a><a class="flex items-center gap-space-sm px-space-md py-space-sm text-label-md font-label-md text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface rounded transition-colors" data-path="ward-investigations" href="#"><span class="material-symbols-outlined text-[20px]">location_city</span>Ward Inspections</a><a class="flex items-center gap-space-sm px-space-md py-space-sm text-label-md font-label-md text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface rounded transition-colors" data-path="sla-escalations" href="#"><span class="material-symbols-outlined text-[20px]">warning</span>SLA Escalations</a><a class="flex items-center gap-space-sm px-space-md py-space-sm text-label-md font-label-md text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface rounded transition-colors" data-path="public-accountability-dashboard" href="#"><span class="material-symbols-outlined text-[20px]">analytics</span>Public Transparency</a><a class="flex items-center gap-space-sm px-space-md py-space-sm text-label-md font-label-md text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface rounded transition-colors mt-auto border-t border-surface-variant pt-space-md" data-path="home" href="#"><span class="material-symbols-outlined text-[20px]">arrow_back</span>Return to Portal</a></nav></aside><div class="pl-64"><header class="fixed top-0 left-64 right-0 h-16 bg-surface-container-lowest border-b border-surface-variant shadow-[0_1px_8px_rgba(0,0,0,0.04)] z-40 flex items-center justify-between px-space-lg"><div class="flex items-center gap-space-md"><span class="text-label-lg font-label-lg font-bold text-primary">Officer Back-Office (అధికారిక లాగిన్)</span><span class="text-label-sm font-label-sm bg-tertiary-fixed text-on-tertiary-fixed px-2 py-0.5 rounded font-bold">SECURE GOV LINK</span></div><div class="flex items-center gap-space-md"><span class="text-label-sm font-label-sm text-on-surface-variant hidden md:inline">Officer: <strong>R. Srinivasa Rao (Dy. Commissioner)</strong></span><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></header><main class="relative pt-16 bg-background min-h-screen px-space-lg py-space-lg"><div class="flex flex-col w-full gap-space-lg">
+<!-- Tricolor Accent Banner -->
+<div class="h-1.5 w-full flex rounded-full overflow-hidden shadow-sm">
+<div class="h-full w-1/3 bg-[#E65100]"></div>
+<div class="h-full w-1/3 bg-[#FFFFFF]"></div>
+<div class="h-full w-1/3 bg-[#1B5E20]"></div>
+</div>
+<!-- 1. Officer Header & Ward Context -->
+<div class="bg-surface-container-lowest p-space-lg rounded-lg shadow-sm flex flex-col lg:flex-row justify-between items-start lg:items-center gap-space-md">
+<div class="flex items-center gap-space-md">
+<div class="w-14 h-14 bg-primary-container text-on-primary flex items-center justify-center rounded-lg shadow-sm">
+<span class="material-symbols-outlined text-[32px]">shield_person</span>
+</div>
+<div class="flex flex-col">
+<div class="flex items-center gap-2 flex-wrap">
+<span class="font-headline-md text-headline-md text-primary font-bold">GVMC Grievance Redressal Administration Portal</span>
+<span class="font-label-sm text-label-sm bg-tertiary-fixed text-on-tertiary-fixed px-2 py-0.5 rounded font-bold uppercase tracking-wider">OFFICIAL DESK</span>
+</div>
+<div class="flex items-center gap-2 text-on-surface-variant font-body-sm text-body-sm mt-1">
+<span class="font-bold text-on-surface">Sri K. V. Ramanamurthy</span>
+<span>(AE - Engineering, Central Zone, Visakhapatnam)</span>
+<span class="text-outline">|</span>
+<span class="bg-surface-container-high px-2 py-0.5 rounded text-primary font-semibold">Jurisdiction: Wards 34 &amp; 35</span>
+</div>
+</div>
+</div>
+<!-- Active Session Badges & Timestamp -->
+<div class="flex items-center gap-space-md w-full lg:w-auto justify-between lg:justify-end bg-surface-container-low p-2 rounded-lg">
+<div class="flex flex-col text-right">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase">Current Status</span>
+<span class="font-label-md text-label-md text-tertiary font-bold flex items-center gap-1 justify-end">
+<span class="w-2 h-2 rounded-full bg-[#1B5E20] inline-block animate-pulse"></span>
+          Active Field Session
+        </span>
+</div>
+<div class="h-8 w-[1px] bg-surface-variant"></div>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase">Biometric Auth</span>
+<span class="font-label-sm text-label-sm font-semibold text-primary">Valid till 18:00 IST</span>
+</div>
+<button class="bg-primary text-on-primary font-label-md text-label-md px-3 py-1.5 rounded hover:bg-primary-container transition-all flex items-center gap-1 shadow-sm">
+<span class="material-symbols-outlined text-[18px]">sync</span> Sync Field
+      </button>
+</div>
+</div>
+<!-- 6. Vigilance & Collector Review Notice Board Banner -->
+<div class="bg-secondary-fixed text-on-secondary-fixed-variant p-space-md rounded-lg shadow-sm flex flex-col md:flex-row items-start md:items-center justify-between gap-space-md">
+<div class="flex items-center gap-space-md">
+<div class="w-10 h-10 bg-secondary-container text-on-secondary flex items-center justify-center rounded-lg shrink-0">
+<span class="material-symbols-outlined text-[24px]">crisis_alert</span>
+</div>
+<div>
+<p class="font-label-lg text-label-lg font-bold">Vigilance Advisory: District Collector &amp; Commissioner Weekly Review (Spandana-JanSakshi)</p>
+<p class="font-body-sm text-body-sm mt-0.5">8 grievances under your jurisdiction are nearing or past red SLA boundaries. Mandatory resolution notes &amp; geo-tagged photographic evidence must be uploaded before 17:00 IST today.</p>
+</div>
+</div>
+<div class="shrink-0 flex items-center gap-2">
+<span class="font-label-sm text-label-sm bg-error text-on-error px-2.5 py-1 rounded font-bold uppercase tracking-wider animate-pulse">8 SLA Breaches Pending</span>
+</div>
+</div>
+<!-- 2. Administrative KPI Cards -->
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-space-md">
+<!-- Total Assigned -->
+<div class="bg-surface-container-lowest p-space-md rounded-lg shadow-sm flex flex-col justify-between">
+<div class="flex items-center justify-between text-on-surface-variant">
+<span class="font-label-md text-label-md uppercase tracking-wider font-semibold">Total Assigned</span>
+<span class="material-symbols-outlined text-primary text-[24px]">folder_shared</span>
+</div>
+<div class="mt-4 flex items-baseline justify-between">
+<span class="font-headline-xl text-headline-xl text-primary font-bold">184</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Ward 34 + 35</span>
+</div>
+<div class="mt-2 h-1.5 w-full bg-surface-container rounded-full overflow-hidden">
+<div class="h-full bg-primary" style="width: 100%"></div>
+</div>
+</div>
+<!-- Pending Triage / New -->
+<div class="bg-surface-container-lowest p-space-md rounded-lg shadow-sm flex flex-col justify-between">
+<div class="flex items-center justify-between text-[#802a00]">
+<span class="font-label-md text-label-md uppercase tracking-wider font-semibold">New / Triage</span>
+<span class="material-symbols-outlined text-secondary text-[24px]">fiber_new</span>
+</div>
+<div class="mt-4 flex items-baseline justify-between">
+<span class="font-headline-xl text-headline-xl text-secondary font-bold">18</span>
+<span class="font-label-sm text-label-sm bg-secondary-fixed text-on-secondary-fixed-variant px-1.5 py-0.5 rounded font-bold uppercase">Urgent Action</span>
+</div>
+<div class="mt-2 h-1.5 w-full bg-surface-container rounded-full overflow-hidden">
+<div class="h-full bg-secondary" style="width: 25%"></div>
+</div>
+</div>
+<!-- Remediation In Progress -->
+<div class="bg-surface-container-lowest p-space-md rounded-lg shadow-sm flex flex-col justify-between">
+<div class="flex items-center justify-between text-primary">
+<span class="font-label-md text-label-md uppercase tracking-wider font-semibold">Active Work</span>
+<span class="material-symbols-outlined text-primary text-[24px]">engineering</span>
+</div>
+<div class="mt-4 flex items-baseline justify-between">
+<span class="font-headline-xl text-headline-xl text-on-surface font-bold">42</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant font-medium">Field teams out</span>
+</div>
+<div class="mt-2 h-1.5 w-full bg-surface-container rounded-full overflow-hidden">
+<div class="h-full bg-primary-container" style="width: 45%"></div>
+</div>
+</div>
+<!-- Resolved This Month -->
+<div class="bg-surface-container-lowest p-space-md rounded-lg shadow-sm flex flex-col justify-between">
+<div class="flex items-center justify-between text-[#1B5E20]">
+<span class="font-label-md text-label-md uppercase tracking-wider font-semibold">Resolved (Feb)</span>
+<span class="material-symbols-outlined text-[#1B5E20] text-[24px]">task_alt</span>
+</div>
+<div class="mt-4 flex items-baseline justify-between">
+<span class="font-headline-xl text-headline-xl text-[#1B5E20] font-bold">116</span>
+<span class="font-label-sm text-label-sm text-[#1B5E20] font-bold">63.0% SLA Redress</span>
+</div>
+<div class="mt-2 h-1.5 w-full bg-surface-container rounded-full overflow-hidden">
+<div class="h-full bg-[#1B5E20]" style="width: 63%"></div>
+</div>
+</div>
+<!-- SLA Escalated / Flagged Red -->
+<div class="bg-error-container text-on-error-container p-space-md rounded-lg shadow-sm flex flex-col justify-between">
+<div class="flex items-center justify-between text-error">
+<span class="font-label-md text-label-md uppercase tracking-wider font-bold">SLA Breached</span>
+<span class="material-symbols-outlined text-error text-[24px]">warning</span>
+</div>
+<div class="mt-4 flex items-baseline justify-between">
+<span class="font-headline-xl text-headline-xl text-error font-bold">08</span>
+<span class="font-label-sm text-label-sm bg-error text-on-error px-2 py-0.5 rounded font-bold uppercase">Collector Flag</span>
+</div>
+<div class="mt-2 h-1.5 w-full bg-surface-container-high rounded-full overflow-hidden">
+<div class="h-full bg-error" style="width: 80%"></div>
+</div>
+</div>
+</div>
+<!-- 3. Actionable Filter Bar -->
+<div class="bg-surface-container-lowest p-space-md rounded-lg shadow-sm flex flex-col md:flex-row gap-space-md items-stretch md:items-center justify-between">
+<div class="grid grid-cols-2 md:grid-cols-4 gap-space-sm flex-1">
+<!-- Ward Selector -->
+<div class="flex flex-col">
+<label class="font-label-sm text-label-sm text-on-surface-variant font-semibold mb-1">WARD SECTOR</label>
+<select class="bg-surface-container-low text-on-surface font-body-sm text-body-sm py-2 px-3 rounded shadow-none focus:outline-none focus:bg-surface-container">
+<option>All Wards (34 &amp; 35)</option>
+<option>Ward 34 - Dwaraka / CBM</option>
+<option>Ward 35 - Asilmetta / Siripuram</option>
+</select>
+</div>
+<!-- Category Filter -->
+<div class="flex flex-col">
+<label class="font-label-sm text-label-sm text-on-surface-variant font-semibold mb-1">CIVIC CATEGORY</label>
+<select class="bg-surface-container-low text-on-surface font-body-sm text-body-sm py-2 px-3 rounded shadow-none focus:outline-none focus:bg-surface-container">
+<option>All Categories</option>
+<option>Roads &amp; Potholes</option>
+<option>Sewage &amp; Drainage</option>
+<option>Sanitation &amp; Garbage</option>
+<option>Streetlights &amp; Electrical</option>
+<option>Water Supply Pipeline</option>
+</select>
+</div>
+<!-- SLA Status Filter -->
+<div class="flex flex-col">
+<label class="font-label-sm text-label-sm text-on-surface-variant font-semibold mb-1">SLA STATUS</label>
+<select class="bg-surface-container-low text-on-surface font-body-sm text-body-sm py-2 px-3 rounded shadow-none focus:outline-none focus:bg-surface-container">
+<option>All Durations</option>
+<option>Normal (&gt; 24h Remaining)</option>
+<option>Critical (&lt; 24h Remaining)</option>
+<option>Breached / Overdue</option>
+</select>
+</div>
+<!-- AI Priority Score -->
+<div class="flex flex-col">
+<label class="font-label-sm text-label-sm text-on-surface-variant font-semibold mb-1">AI PRIORITY INDEX</label>
+<select class="bg-surface-container-low text-on-surface font-body-sm text-body-sm py-2 px-3 rounded shadow-none focus:outline-none focus:bg-surface-container">
+<option>All Severity Scores</option>
+<option>High Severity (Score &gt; 80)</option>
+<option>Medium Severity (40 - 79)</option>
+<option>Low Severity (&lt; 40)</option>
+</select>
+</div>
+</div>
+<!-- Quick Search & Export -->
+<div class="flex items-end gap-2 pt-2 md:pt-0">
+<div class="relative w-full md:w-56">
+<input class="w-full bg-surface-container-low font-body-sm text-body-sm pl-8 pr-3 py-2 rounded focus:outline-none focus:bg-surface-container text-on-surface" placeholder="Search Token / Street..." type="text"/>
+<span class="material-symbols-outlined text-[18px] text-on-surface-variant absolute left-2.5 top-2.5">search</span>
+</div>
+<button class="bg-surface-container-high text-on-surface font-label-md text-label-md px-3 py-2 rounded hover:bg-surface-container-highest transition-colors flex items-center gap-1 shadow-sm shrink-0">
+<span class="material-symbols-outlined text-[18px]">download</span> Export
+      </button>
+</div>
+</div>
+<!-- Main Work Area: 2 Columns (Master Table 65% + Quick Action Workbench 35%) -->
+<div class="grid grid-cols-1 xl:grid-cols-12 gap-space-lg">
+<!-- 4. Grievance Management Master Table (8 Columns on desktop) -->
+<div class="xl:col-span-8 flex flex-col gap-space-sm">
+<div class="flex items-center justify-between bg-surface-container-lowest p-space-md rounded-t-lg shadow-sm">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary">table_chart</span>
+<span class="font-headline-sm text-headline-sm text-on-surface font-bold">Active Ward Ledger</span>
+<span class="bg-primary-fixed text-on-primary-fixed font-label-sm text-label-sm px-2 py-0.5 rounded font-bold">Showing 4 of 68 Active</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="font-body-sm text-body-sm text-on-surface-variant">Auto-Refresh in <span class="font-bold text-primary">02:45</span></span>
+<button class="p-1 rounded hover:bg-surface-container text-on-surface-variant">
+<span class="material-symbols-outlined text-[18px]">refresh</span>
+</button>
+</div>
+</div>
+<!-- Table Container -->
+<div class="bg-surface-container-lowest rounded-b-lg shadow-sm overflow-x-auto">
+<table class="w-full text-left border-collapse">
+<thead>
+<tr class="bg-primary text-on-primary font-label-md text-label-md uppercase tracking-wider">
+<th class="py-3 px-4">Grievance ID</th>
+<th class="py-3 px-3">Date</th>
+<th class="py-3 px-3">Citizen</th>
+<th class="py-3 px-3">Category &amp; Location</th>
+<th class="py-3 px-4">AI Triage &amp; SLA</th>
+<th class="py-3 px-3">Status</th>
+<th class="py-3 px-3 text-right">Actions</th>
+</tr>
+</thead>
+<tbody class="font-body-sm text-body-sm divide-y divide-surface-variant">
+<!-- Row 1: Selected / Awaiting Verification -->
+<tr class="bg-surface-container-low hover:bg-surface-container transition-colors">
+<td class="py-3.5 px-4 font-semibold text-primary">
+<div class="flex items-center gap-1.5">
+<span class="material-symbols-outlined text-[16px] text-tertiary">check_circle</span>
+<span>VSKP-2025-08421</span>
+</div>
+<span class="text-label-sm font-label-sm text-on-surface-variant block">Ward 34</span>
+</td>
+<td class="py-3.5 px-3 text-on-surface whitespace-nowrap">
+                12-Feb<br/><span class="text-label-sm font-label-sm text-on-surface-variant">10:14 IST</span>
+</td>
+<td class="py-3.5 px-3 text-on-surface">
+                Resident<br/><span class="text-label-sm font-label-sm text-outline">Dwaraka Ngr</span>
+</td>
+<td class="py-3.5 px-3">
+<span class="font-bold text-on-surface block">Drainage Overflow</span>
+<span class="text-on-surface-variant text-label-sm font-label-sm">Diamond Park Road</span>
+</td>
+<td class="py-3.5 px-4">
+<span class="bg-error-container text-on-error-container font-label-sm text-label-sm px-1.5 py-0.5 rounded font-bold uppercase inline-block mb-1">AI Score: 92</span>
+<div class="flex items-center gap-1 text-on-surface-variant text-label-sm font-label-sm font-semibold">
+<span class="material-symbols-outlined text-[16px] text-secondary">schedule</span>
+                  12h remaining
+                </div>
+</td>
+<td class="py-3.5 px-3">
+<span class="bg-[#E8F5E9] text-[#1B5E20] font-label-sm text-label-sm px-2 py-0.5 rounded font-bold uppercase whitespace-nowrap">
+                  Awaiting Proof
+                </span>
+</td>
+<td class="py-3.5 px-3 text-right whitespace-nowrap">
+<button class="bg-primary text-on-primary font-label-sm text-label-sm px-2.5 py-1.5 rounded hover:bg-primary-container shadow-sm inline-flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">upload_file</span> Resolve
+                </button>
+</td>
+</tr>
+<!-- Row 2: Overdue / Pothole Hazard -->
+<tr class="bg-error-container/20 hover:bg-error-container/40 transition-colors">
+<td class="py-3.5 px-4 font-semibold text-error">
+<div class="flex items-center gap-1.5">
+<span class="material-symbols-outlined text-[16px] text-error">priority_high</span>
+<span>VSKP-2025-08490</span>
+</div>
+<span class="text-label-sm font-label-sm text-on-surface-variant block">Ward 35</span>
+</td>
+<td class="py-3.5 px-3 text-on-surface whitespace-nowrap">
+                13-Feb<br/><span class="text-label-sm font-label-sm text-on-surface-variant">08:30 IST</span>
+</td>
+<td class="py-3.5 px-3 text-on-surface">
+                Resident<br/><span class="text-label-sm font-label-sm text-outline">Asilmetta</span>
+</td>
+<td class="py-3.5 px-3">
+<span class="font-bold text-on-surface block">Pothole Hazard</span>
+<span class="text-on-surface-variant text-label-sm font-label-sm">Near RTC Complex</span>
+</td>
+<td class="py-3.5 px-4">
+<span class="bg-error text-on-error font-label-sm text-label-sm px-1.5 py-0.5 rounded font-bold uppercase inline-block mb-1">Overdue (+4h)</span>
+<div class="text-on-error-container text-label-sm font-label-sm font-bold flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">warning</span> Escalate Alert
+                </div>
+</td>
+<td class="py-3.5 px-3">
+<span class="bg-[#FFF8E1] text-[#E65100] font-label-sm text-label-sm px-2 py-0.5 rounded font-bold uppercase whitespace-nowrap">
+                  Road Team Out
+                </span>
+</td>
+<td class="py-3.5 px-3 text-right whitespace-nowrap">
+<button class="bg-error text-on-error font-label-sm text-label-sm px-2.5 py-1.5 rounded hover:opacity-90 shadow-sm inline-flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">campaign</span> Escalate
+                </button>
+</td>
+</tr>
+<!-- Row 3: Broken Streetlight -->
+<tr class="bg-surface-container-lowest hover:bg-surface-container transition-colors">
+<td class="py-3.5 px-4 font-semibold text-primary">
+<span>VSKP-2025-08512</span>
+<span class="text-label-sm font-label-sm text-on-surface-variant block">Ward 34</span>
+</td>
+<td class="py-3.5 px-3 text-on-surface whitespace-nowrap">
+                14-Feb<br/><span class="text-label-sm font-label-sm text-on-surface-variant">14:22 IST</span>
+</td>
+<td class="py-3.5 px-3 text-on-surface">
+                Resident<br/><span class="text-label-sm font-label-sm text-outline">CBM Compound</span>
+</td>
+<td class="py-3.5 px-3">
+<span class="font-bold text-on-surface block">Broken Streetlight</span>
+<span class="text-on-surface-variant text-label-sm font-label-sm">Pillar 14, 2nd Cross</span>
+</td>
+<td class="py-3.5 px-4">
+<span class="bg-surface-container text-on-surface font-label-sm text-label-sm px-1.5 py-0.5 rounded font-semibold uppercase inline-block mb-1">Score: 64</span>
+<div class="flex items-center gap-1 text-on-surface-variant text-label-sm font-label-sm">
+<span class="material-symbols-outlined text-[16px]">schedule</span>
+                  36h remaining
+                </div>
+</td>
+<td class="py-3.5 px-3">
+<span class="bg-[#E3F2FD] text-primary font-label-sm text-label-sm px-2 py-0.5 rounded font-bold uppercase whitespace-nowrap">
+                  Assigned
+                </span>
+</td>
+<td class="py-3.5 px-3 text-right whitespace-nowrap">
+<button class="bg-surface-container-high text-on-surface font-label-sm text-label-sm px-2.5 py-1.5 rounded hover:bg-surface-container-highest shadow-sm inline-flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">person_add</span> Assign Tech
+                </button>
+</td>
+</tr>
+<!-- Row 4: Commercial Waste Heap -->
+<tr class="bg-surface-container-lowest hover:bg-surface-container transition-colors">
+<td class="py-3.5 px-4 font-semibold text-primary">
+<span>VSKP-2025-08535</span>
+<span class="text-label-sm font-label-sm text-on-surface-variant block">Ward 35</span>
+</td>
+<td class="py-3.5 px-3 text-on-surface whitespace-nowrap">
+                14-Feb<br/><span class="text-label-sm font-label-sm text-on-surface-variant">16:45 IST</span>
+</td>
+<td class="py-3.5 px-3 text-on-surface">
+                Resident<br/><span class="text-label-sm font-label-sm text-outline">Siripuram</span>
+</td>
+<td class="py-3.5 px-3">
+<span class="font-bold text-on-surface block">Commercial Waste</span>
+<span class="text-on-surface-variant text-label-sm font-label-sm">Opp. Rythu Bazar</span>
+</td>
+<td class="py-3.5 px-4">
+<span class="bg-surface-container text-on-surface font-label-sm text-label-sm px-1.5 py-0.5 rounded font-semibold uppercase inline-block mb-1">Score: 78</span>
+<div class="flex items-center gap-1 text-on-surface-variant text-label-sm font-label-sm">
+<span class="material-symbols-outlined text-[16px]">schedule</span>
+                  18h remaining
+                </div>
+</td>
+<td class="py-3.5 px-3">
+<span class="bg-[#FFF8E1] text-[#E65100] font-label-sm text-label-sm px-2 py-0.5 rounded font-bold uppercase whitespace-nowrap">
+                  Truck Dispatched
+                </span>
+</td>
+<td class="py-3.5 px-3 text-right whitespace-nowrap">
+<button class="bg-surface-container-high text-on-surface font-label-sm text-label-sm px-2.5 py-1.5 rounded hover:bg-surface-container-highest shadow-sm inline-flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">edit_note</span> Update
+                </button>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- Table Pagination Footer -->
+<div class="p-space-md bg-surface-container-low flex flex-col sm:flex-row items-center justify-between gap-space-sm text-on-surface-variant">
+<span class="font-body-sm text-body-sm">
+            Showing <strong class="text-on-surface">1 to 4</strong> of <strong class="text-on-surface">184</strong> official grievances
+          </span>
+<div class="flex items-center gap-1">
+<button class="p-1.5 rounded bg-surface-container hover:bg-surface-container-highest disabled:opacity-50" disabled="">
+<span class="material-symbols-outlined text-[18px]">chevron_left</span>
+</button>
+<span class="px-3 py-1 bg-primary text-on-primary rounded font-label-sm text-label-sm font-bold">1</span>
+<button class="px-3 py-1 bg-surface-container hover:bg-surface-container-highest rounded font-label-sm text-label-sm font-bold">2</button>
+<button class="px-3 py-1 bg-surface-container hover:bg-surface-container-highest rounded font-label-sm text-label-sm font-bold">3</button>
+<button class="px-3 py-1 bg-surface-container hover:bg-surface-container-highest rounded font-label-sm text-label-sm font-bold">...</button>
+<button class="p-1.5 rounded bg-surface-container hover:bg-surface-container-highest">
+<span class="material-symbols-outlined text-[18px]">chevron_right</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+<!-- 5. Quick Action Drawer / Officer Workbench (4 Columns on desktop) -->
+<div class="xl:col-span-4 flex flex-col gap-space-md">
+<div class="bg-surface-container-lowest p-space-md rounded-lg shadow-sm">
+<!-- Workbench Header -->
+<div class="flex items-center justify-between pb-space-sm border-b border-surface-variant">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary">fact_check</span>
+<h3 class="font-headline-sm text-headline-sm text-primary font-bold">Officer Remediation Desk</h3>
+</div>
+<span class="bg-tertiary-fixed text-on-tertiary-fixed text-label-sm font-label-sm px-2 py-0.5 rounded font-bold uppercase">CASE IN FOCUS</span>
+</div>
+<!-- Case Overview Capsule -->
+<div class="bg-surface-container-low p-space-sm rounded-lg mt-space-md flex flex-col gap-1">
+<div class="flex justify-between items-center">
+<span class="font-label-md text-label-md font-bold text-primary">VSKP-2025-08421</span>
+<span class="font-label-sm text-label-sm text-secondary font-bold">SLA: 12h remaining</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface font-semibold">Drainage Overflow - Diamond Park Road, Dwaraka Nagar</p>
+<span class="font-body-sm text-body-sm text-on-surface-variant">AI Summary: Severe blockage reported near commercial storm canal junction.</span>
+</div>
+<!-- Before / After Comparative Image Preview -->
+<div class="mt-space-md flex flex-col gap-space-xs">
+<span class="font-label-sm text-label-sm text-on-surface-variant font-bold uppercase">Geo-Tagged Visual Evidence</span>
+<div class="grid grid-cols-2 gap-space-sm">
+<div class="flex flex-col gap-1">
+<span class="text-label-sm font-label-sm text-on-surface-variant font-semibold">Citizen Before-Photo</span>
+<div class="relative h-28 w-full rounded overflow-hidden shadow-sm">
+<img class="w-full h-full object-cover" data-alt="Clear high contrast photograph of an urban street drain overflowing with dark water onto asphalt road near commercial storefronts in Visakhapatnam, daylight, administrative evidence style" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA-HQI9Pqt762SXgoWgwwql3jhg6AtR27rJQFSKIOPd0qTl4Rxebv9IAxov9wt30BHp9M-0xIP7rg9TugqLznQTrpt2F35w9o8tlVuNb4DzEWV6pmCfGX06jj0aCN5xJtWaf5DqJypehL3LKybcppv-tNblouTAbT0qnWruvagWqYnTkXzYwQIdm9tFjy3U-isOY6dv1o8wdqF20RYDWmy92B-zb64LYSYbMdDPL1s"/>
+<span class="absolute bottom-1 left-1 bg-surface-container-lowest/90 px-1 py-0.5 rounded text-[10px] font-bold text-on-surface">12-Feb 10:14</span>
+</div>
+</div>
+<!-- After Photo Upload Box -->
+<div class="flex flex-col gap-1">
+<span class="text-label-sm font-label-sm text-on-surface-variant font-semibold">Resolution After-Photo *</span>
+<label class="h-28 w-full bg-surface-container-low rounded flex flex-col items-center justify-center cursor-pointer hover:bg-surface-container transition-colors relative text-center p-2">
+<span class="material-symbols-outlined text-primary text-[28px]">add_a_photo</span>
+<span class="font-label-sm text-label-sm text-primary font-bold mt-1">Upload Work Photo</span>
+<span class="text-[10px] text-on-surface-variant">Requires GPS Tag</span>
+<input accept="image/*" class="hidden" type="file"/>
+</label>
+</div>
+</div>
+</div>
+<!-- Form: Completion Details -->
+<form class="mt-space-md flex flex-col gap-space-sm" onsubmit="event.preventDefault(); alert('Remediation Submitted &amp; Verification SMS Dispatched to Citizen');">
+<div>
+<label class="font-label-sm text-label-sm text-on-surface-variant font-semibold block mb-1">ENGINEERING CONTRACTOR / TEAM NAME *</label>
+<input class="w-full bg-surface-container-low text-on-surface font-body-sm text-body-sm py-2 px-3 rounded focus:outline-none focus:bg-surface-container" required="" type="text" value="GVMC Zone-3 Desilting Squad (Lead: M. Apparao)"/>
+</div>
+<div>
+<label class="font-label-sm text-label-sm text-on-surface-variant font-semibold block mb-1">FIELD ENGINEER REMEDIATION NOTE (తెలుగు / ENGLISH) *</label>
+<textarea class="w-full bg-surface-container-low text-on-surface font-body-sm text-body-sm py-2 px-3 rounded focus:outline-none focus:bg-surface-container resize-none" placeholder="Explain action taken: Main silt blockage removed, sewer pipe flushed, covers replaced..." required="" rows="3">Drain clear-out completed using super-sucker unit. 40 meters line cleared. Manhole cover resealed with asphalt border.</textarea>
+</div>
+<!-- Notification Toggles -->
+<div class="bg-surface-container-low p-2 rounded flex flex-col gap-2">
+<label class="flex items-center gap-2 cursor-pointer font-body-sm text-body-sm text-on-surface">
+<input checked="" class="accent-primary w-4 h-4 rounded" type="checkbox"/>
+<span>Send Citizen OTP-Verification SMS (Spandana Integration)</span>
+</label>
+<label class="flex items-center gap-2 cursor-pointer font-body-sm text-body-sm text-on-surface">
+<input checked="" class="accent-primary w-4 h-4 rounded" type="checkbox"/>
+<span>Update Ward Corporator Transparency Feed</span>
+</label>
+</div>
+<!-- Action Buttons -->
+<div class="flex items-center gap-space-sm pt-2">
+<button class="flex-1 bg-primary text-on-primary font-label-md text-label-md py-2.5 px-4 rounded hover:bg-primary-container transition-colors shadow-sm flex items-center justify-center gap-2 font-bold" type="submit">
+<span class="material-symbols-outlined text-[18px]">verified</span> Submit Resolution
+            </button>
+<button class="bg-surface-container-high text-on-surface font-label-md text-label-md py-2.5 px-3 rounded hover:bg-surface-container-highest transition-colors shadow-sm" type="button">
+              Save Draft
+            </button>
+</div>
+</form>
+</div>
+<!-- Quick AI Triage Insight Box -->
+<div class="bg-surface-container-low p-space-md rounded-lg shadow-sm flex flex-col gap-2">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm text-primary font-bold uppercase flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px]">smart_toy</span> JanSakshi AI Ward Assistant
+          </span>
+<span class="text-label-sm font-label-sm text-on-surface-variant font-medium">Model v2.4</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface">
+<strong>Pattern Detected:</strong> 4 similar drain overflow grievances filed within 300m of Diamond Park over the last 14 days. Suggest scheduled stormwater desilting prior to the monsoon season.
+        </p>
+<button class="text-left font-label-sm text-label-sm text-primary font-bold hover:underline flex items-center gap-1 mt-1">
+          Generate Preventative Work Order for Ward 34 →
+        </button>
+</div>
+</div>
+</div>
+</div></main></div></body></html>

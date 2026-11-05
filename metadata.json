@@ -1,0 +1,6 @@
+{
+  "name": "JanSakshi AI - Civic Grievance & Public Accountability Platform",
+  "description": "An AI-powered civic grievance management and public accountability platform with 6 intelligence modules: multilingual complaint understanding, photo analysis, duplicate detection, priority intelligence, predictive analytics, and evidence authenticity verification.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,833 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta content="width=device-width, initial-scale=1.0" name="viewport"><title>JanSakshi AI - Civic Grievance &amp; Public Accountability Platform</title><meta name="description" content="An AI-powered civic grievance management and public accountability platform with 6 intelligence modules: multilingual complaint understanding, photo analysis, duplicate detection, priority intelligence, predictive analytics, and evidence authenticity verification." /><meta property="og:title" content="JanSakshi AI - Civic Grievance &amp; Public Accountability Platform" /><meta property="og:description" content="An AI-powered civic grievance management and public accountability platform with 6 intelligence modules: multilingual complaint understanding, photo analysis, duplicate detection, priority intelligence, predictive analytics, and evidence authenticity verification." /><meta content="web_standard" name="shell-type"><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"><link href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&amp;display=swap" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"><style>@layer *base*{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{colors:{"outline":"#737783","primary-fixed":"#d9e2ff","surface-variant":"#d8e4f3","primary":"#003178","background":"#f7f9ff","primary-fixed-dim":"#b0c6ff","error-container":"#ffdad6","on-surface":"#111d27","on-tertiary-fixed-variant":"#0c5216","on-primary-fixed-variant":"#00429c","surface-container-highest":"#d8e4f3","on-error":"#ffffff","secondary-fixed":"#ffdbcf","surface-container-low":"#edf4ff","surface-container-lowest":"#ffffff","on-secondary-fixed-variant":"#802a00","surface-container-high":"#dee9f8","on-secondary":"#ffffff","on-secondary-container":"#531800","on-primary":"#ffffff","on-primary-container":"#a1bbff","tertiary-fixed-dim":"#91d78a","secondary-fixed-dim":"#ffb59a","surface-tint":"#2b5bb5","on-error-container":"#93000a","tertiary-fixed":"#acf4a4","surface-container":"#e3effe","error":"#ba1a1a","on-tertiary-container":"#88cd81","inverse-on-surface":"#e8f2ff","surface-dim":"#d0dbea","primary-container":"#0d47a1","secondary-container":"#fc6018","inverse-primary":"#b0c6ff","tertiary-container":"#14581b","on-surface-variant":"#434652","on-primary-fixed":"#001945","inverse-surface":"#26313d","on-background":"#111d27","secondary":"#a83900","on-tertiary":"#ffffff","outline-variant":"#c3c6d4","surface":"#f7f9ff","on-tertiary-fixed":"#002203","on-secondary-fixed":"#380d00","tertiary":"#003f0b","surface-bright":"#f7f9ff"},borderRadius:{"DEFAULT":"0.25rem","lg":"0.5rem","xl":"0.75rem","full":"9999px"},spacing:{"space-sm":"0.5rem","gutter":"1rem","space-md":"1rem","margin-desktop":"2.5rem","margin":"1rem","space-xs":"0.25rem","gutter-desktop":"1.5rem","space-xl":"2.5rem","space-lg":"1.5rem"},fontFamily:{"headline-xl-mobile":["Public Sans"],"body-md":["Public Sans"],"label-md":["Public Sans"],"headline-lg-mobile":["Public Sans"],"headline-lg":["Public Sans"],"headline-md":["Public Sans"],"headline-sm":["Public Sans"],"body-lg":["Public Sans"],"label-sm":["Public Sans"],"headline-xl":["Public Sans"],"label-lg":["Public Sans"],"body-sm":["Public Sans"]},fontSize:{"headline-xl-mobile":["24px",{"lineHeight":"32px","fontWeight":"700"}],"body-md":["15px",{"lineHeight":"22px","fontWeight":"400"}],"label-md":["13px",{"lineHeight":"18px","fontWeight":"600"}],"headline-lg-mobile":["20px",{"lineHeight":"28px","fontWeight":"700"}],"headline-lg":["24px",{"lineHeight":"32px","fontWeight":"700"}],"headline-md":["20px",{"lineHeight":"28px","fontWeight":"600"}],"headline-sm":["18px",{"lineHeight":"26px","fontWeight":"600"}],"body-lg":["16px",{"lineHeight":"24px","fontWeight":"400"}],"label-sm":["11px",{"lineHeight":"14px","letterSpacing":"0.5px","fontWeight":"700"}],"headline-xl":["32px",{"lineHeight":"40px","letterSpacing":"-0.5px","fontWeight":"700"}],"label-lg":["14px",{"lineHeight":"20px","letterSpacing":"0.5px","fontWeight":"700"}],"body-sm":["13px",{"lineHeight":"18px","fontWeight":"400"}]}}}};</script></head><body class="bg-background font-body-md text-on-surface antialiased"><header class="fixed top-0 left-0 right-0 z-50 bg-surface-container-lowest shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-1 w-full flex"><div class="h-full w-1/3 bg-[#d97706]"></div><div class="h-full w-1/3 bg-[#ffffff]"></div><div class="h-full w-1/3 bg-[#15803d]"></div></div><div class="bg-primary text-on-primary text-label-sm font-label-sm py-1"><div class="max-w-7xl mx-auto px-margin lg:px-margin-desktop flex flex-wrap items-center justify-between gap-space-xs"><div class="flex items-center gap-space-md"><span class="flex items-center gap-1"><span class="material-symbols-outlined text-[14px]">call</span><span class="">Helpline Toll-Free: <strong>1905</strong> / 1800-425-0001</span></span><span class="hidden md:inline-block text-on-primary-container">|</span><span class="hidden md:inline-flex items-center gap-1"><span class="material-symbols-outlined text-[14px]">schedule</span><span class="">IST: 24x7 Civic Desk</span></span></div><div class="flex items-center gap-space-md"><a class="hover:underline focus:outline-none" href="#main-content">Skip to Main Content</a><span class="text-on-primary-container">|</span><div class="flex items-center gap-1"><span class="font-label-sm">Text:</span><button class="px-1 hover:bg-primary-container rounded" title="Decrease Font" type="button">A-</button><button class="px-1 hover:bg-primary-container rounded font-bold" title="Normal Font" type="button">A</button><button class="px-1 hover:bg-primary-container rounded" title="Increase Font" type="button">A+</button></div><span class="text-on-primary-container">|</span><button class="flex items-center gap-1 hover:underline" title="Screen Reader Access" type="button"><span class="material-symbols-outlined text-[14px]">hearing</span><span class="hidden sm:inline">Screen Reader</span></button><span class="text-on-primary-container">|</span><div class="flex items-center gap-1 bg-[#002203]/40 p-0.5 rounded border border-white/20" id="lang-switcher-container"><button id="btn-lang-en" class="px-2 py-1 font-bold bg-surface-container-lowest text-primary text-label-sm rounded shadow-sm focus:outline-none" onclick="document.getElementById('btn-lang-en').className='px-2 py-1 font-bold bg-surface-container-lowest text-primary text-label-sm rounded shadow-sm focus:outline-none'; document.getElementById('btn-lang-te').className='px-2 py-1 text-on-primary hover:bg-primary-container text-label-sm rounded focus:outline-none';" type="button">English</button><button id="btn-lang-te" class="px-2 py-1 text-on-primary hover:bg-primary-container text-label-sm rounded focus:outline-none" onclick="document.getElementById('btn-lang-te').className='px-2 py-1 font-bold bg-surface-container-lowest text-primary text-label-sm rounded shadow-sm focus:outline-none'; document.getElementById('btn-lang-en').className='px-2 py-1 text-on-primary hover:bg-primary-container text-label-sm rounded focus:outline-none';" type="button">తెలుగు (Telugu)</button></div></div></div></div><div class="bg-surface-container-lowest py-space-sm border-b border-surface-variant"><div class="max-w-7xl mx-auto px-margin lg:px-margin-desktop flex items-center justify-between gap-gutter"><div class="flex items-center gap-space-md"><img alt="JanSakshi AI Civic Logo" class="h-12 md:h-14 w-auto object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAs_Ptbox78onUmD7acB7M58SjrdWPS7OtOe5Wk9veIBnYaY9AMaEuvh6wKyxXPxbsCEpzJ_T9n2fRB73MaU17cItJEBLJWzXWXgApVw4-_vnWaXy3N3PSE_mRGwmpSjrWscXwOqaitRXOuerkiIF5na-mwegHs4wwmIN04JRMWN6JXIwOnYwKaUvJbzS9lvdP_ohI4vPLNjO70T4MOdcDBqPxTA6X_YzmaapRFcuU"><div class="flex flex-col"><div class="flex items-baseline gap-2"><span class="font-headline-sm text-headline-sm text-primary uppercase tracking-wide">JanSakshi AI</span><span class="hidden sm:inline text-label-md font-label-md text-secondary font-bold">/ జనసాక్షి AI</span></div><p class="font-label-md text-label-md text-on-surface font-semibold">Citizen Grievance &amp; Public Accountability Portal</p><p class="text-label-sm font-label-sm text-on-surface-variant hidden md:block">ప్రజా సమస్యల పరిష్కార వేదిక - విశాఖపట్నం (Demonstration Initiative)</p></div></div><div class="flex items-center gap-space-md"><div class="hidden lg:flex items-center gap-space-sm bg-surface-container-low px-space-md py-space-xs rounded border border-surface-variant"><span class="material-symbols-outlined text-secondary text-[28px]">support_agent</span><div><div class="text-label-sm font-label-sm text-on-surface-variant">Citizen Helpline (24x7)</div><div class="text-label-lg font-label-lg text-secondary">Toll Free: 1905</div></div></div><div class="flex items-center gap-space-sm"><a class="hidden sm:inline-flex items-center px-space-md py-2 text-label-md font-label-md text-primary border border-primary hover:bg-surface-container-low transition-colors" data-path="citizen-portal" href="#">Citizen Login | పౌరుల లాగిన్</a><a class="inline-flex items-center px-space-md py-2 text-label-md font-label-md bg-primary-container text-on-primary hover:bg-primary transition-colors" data-path="officer-dashboard" href="#">Officer Login</a><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></div></div><nav class="bg-primary-container text-on-primary" data-active-classes="bg-[#fc6018] text-[#ffffff] font-bold border-b-2 border-[#ffdbcf]"><div class="max-w-7xl mx-auto px-margin lg:px-margin-desktop flex items-center overflow-x-auto"><a aria-current="page" class="shrink-0 px-space-md py-3 transition-colors flex items-center gap-1 bg-[#fc6018] text-[#ffffff] font-bold border-b-2 border-[#ffdbcf]" data-path="home" href="#">Home (హోమ్)</a><a class="shrink-0 px-space-md py-3 text-label-md font-label-md text-on-primary hover:bg-primary hover:text-on-primary transition-colors flex items-center gap-1 border-r border-primary/30" data-path="citizen-services" href="#">Citizen Services (సేవలు)</a><a class="shrink-0 px-space-md py-3 text-label-md font-label-md text-on-primary hover:bg-primary hover:text-on-primary transition-colors flex items-center gap-1 border-r border-primary/30" data-path="register-complaint" href="#">Register Complaint (ఫిర్యాదు నమోదు)</a><a class="shrink-0 px-space-md py-3 text-label-md font-label-md text-on-primary hover:bg-primary hover:text-on-primary transition-colors flex items-center gap-1 border-r border-primary/30" data-path="track-complaint" href="#">Track Complaint (స్థితిని తనిఖీ చేయండి)</a><a class="shrink-0 px-space-md py-3 text-label-md font-label-md text-on-primary hover:bg-primary hover:text-on-primary transition-colors flex items-center gap-1 border-r border-primary/30" data-path="citizen-portal" href="#">Citizen Portal (నా ఫిర్యాదులు)</a><a class="shrink-0 px-space-md py-3 text-label-md font-label-md text-on-primary hover:bg-primary hover:text-on-primary transition-colors flex items-center gap-1 border-r border-primary/30" data-path="officer-dashboard" href="#">Officer Dashboard (అధికారుల విభాగం)</a><a class="shrink-0 px-space-md py-3 text-label-md font-label-md text-on-primary hover:bg-primary hover:text-on-primary transition-colors flex items-center gap-1 border-r border-primary/30" data-path="public-accountability-dashboard" href="#">Public Accountability (ప్రజా డాష్‌బోర్డ్)</a><a class="shrink-0 px-space-md py-3 text-label-md font-label-md text-on-primary hover:bg-primary hover:text-on-primary transition-colors flex items-center gap-1" data-path="contact-and-help" href="#">Contact &amp; Help (సహాయం)</a></div></nav></header><main class="w-full pt-48 bg-background min-h-screen" id="main-content"><div class="flex flex-col w-full">
+
+<!-- 1. OFFICIAL CITIZEN NOTICE TICKER -->
+
+<section class="w-full bg-secondary-container text-on-secondary shadow-sm">
+
+<div class="max-w-7xl mx-auto px-margin lg:px-margin-desktop py-2 flex flex-col md:flex-row items-stretch md:items-center gap-space-sm">
+
+<div class="flex items-center gap-2 bg-secondary px-3 py-1 text-on-secondary shrink-0 shadow-sm">
+
+<span class="material-symbols-outlined text-[18px]">campaign</span>
+
+<span class="font-label-sm text-label-sm uppercase tracking-wider">తాజా సమాచారం / Announcements</span>
+
+</div>
+
+<div class="relative flex-1 overflow-hidden py-1">
+
+<div class="whitespace-nowrap flex items-center gap-8 animate-[marquee_24s_linear_infinite] text-on-secondary font-label-md text-label-md">
+
+<span class="inline-flex items-center gap-2">
+
+<span class="w-2 h-2 rounded-full bg-surface-container-lowest animate-pulse"></span>
+
+            Citizens can now submit grievances in Telugu via Voice Note / తెలుగు వాయిస్ నోట్ ద్వారా ఫిర్యాదు నమోదు చేయవచ్చు.
+
+          </span>
+
+<span class="opacity-40">|</span>
+
+<span class="inline-flex items-center gap-2">
+
+<span class="w-2 h-2 rounded-full bg-surface-container-lowest"></span>
+
+            Visakhapatnam Special Sanitation &amp; Pothole Resolution Drive active across Wards 1 to 98 (GVMC Mission Mode).
+
+          </span>
+
+<span class="opacity-40">|</span>
+
+<span class="inline-flex items-center gap-2">
+
+<span class="w-2 h-2 rounded-full bg-surface-container-lowest"></span>
+
+            Ward Sabhas scheduled every Wednesday 10:00 AM - 1:00 PM for on-the-spot physical redressal verification.
+
+          </span>
+
+</div>
+
+</div>
+
+<div class="hidden lg:flex items-center gap-2 shrink-0 bg-secondary/80 px-2 py-0.5 text-on-secondary">
+
+<span class="material-symbols-outlined text-[14px]">volume_up</span>
+
+<span class="font-label-sm text-label-sm">Audio Bulletin Ready</span>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- 2. CIVIC HERO & SOVEREIGN MOTTO BANNER -->
+
+<section class="w-full bg-surface-container-low py-space-lg lg:py-space-xl">
+
+<div class="max-w-7xl mx-auto px-margin lg:px-margin-desktop">
+
+<div class="bg-surface-container-lowest shadow-md p-space-md lg:p-space-lg relative overflow-hidden">
+
+<!-- Top Institutional Tricolor Accent Stripe -->
+
+<div class="absolute top-0 left-0 right-0 h-1.5 flex">
+
+<div class="h-full w-1/3 bg-[#d97706]"></div>
+
+<div class="h-full w-1/3 bg-[#ffffff]"></div>
+
+<div class="h-full w-1/3 bg-[#15803d]"></div>
+
+</div>
+
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter-desktop items-center mt-2">
+
+<!-- Text and Motto Column -->
+
+<div class="lg:col-span-8 flex flex-col gap-space-sm">
+
+<div class="flex items-center gap-2 flex-wrap">
+
+<span class="bg-primary text-on-primary px-2.5 py-1 text-label-sm font-label-sm uppercase tracking-wide">
+
+                JanSakshi AI • Independent Demonstration Initiative
+
+              </span>
+
+<span class="bg-tertiary-container text-on-tertiary px-2 py-1 text-label-sm font-label-sm">
+
+                AI-Assisted Civic Grievance Management v2.4
+
+              </span>
+
+</div>
+
+<div class="flex flex-col">
+
+<h1 class="font-headline-xl text-headline-xl text-primary font-bold tracking-tight">
+
+                Welcome to JanSakshi AI
+
+              </h1>
+
+<p class="font-headline-md text-headline-md text-secondary font-semibold">
+
+                జనసాక్షి పౌర సేవా వేదికకు స్వాగతం
+
+              </p>
+
+</div>
+
+<!-- Prominent Subheading Callout -->
+
+<div class="bg-surface-container p-space-sm lg:p-space-md shadow-sm">
+
+<div class="font-headline-sm text-headline-sm text-primary font-bold leading-snug">
+
+                "Your Complaint. Your Right. Our Responsibility."
+
+              </div>
+
+<div class="font-headline-sm text-headline-sm text-secondary font-bold">
+
+                (మీ సమస్య - మీ హక్కు - మా బాధ్యత)
+
+              </div>
+
+<p class="mt-2 font-body-md text-body-md text-on-surface-variant">
+
+                An honest, citizen-first public grievance and municipal accountability initiative. Report civic problems with evidence, track real-time departmental action, and ensure public service transparency across Visakhapatnam.
+
+              </p>
+
+</div>
+
+<!-- Quick Helpline Callout Box -->
+
+<div class="bg-surface-container-high p-space-md border border-surface-variant shadow-sm flex flex-col gap-space-sm"><div class="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-space-sm pb-space-sm border-b border-surface-variant"><div class="flex items-center gap-3"><div class="w-12 h-12 rounded-full bg-secondary-container text-on-secondary flex items-center justify-center shrink-0 shadow-sm"><span class="material-symbols-outlined text-[28px]">ring_volume</span></div><div><div class="font-label-sm text-label-sm uppercase tracking-wider text-secondary font-bold">24x7 Citizen Helpline &amp; Voice Desk</div><div class="font-label-lg text-label-lg text-on-surface">Toll-Free: <strong class="text-primary font-bold">1905</strong> / WhatsApp: <strong class="text-secondary font-bold">+91 891 256 0000</strong></div></div></div><a class="shrink-0 bg-surface-container-lowest text-primary border border-primary px-4 py-2 font-label-md text-label-md hover:bg-primary hover:text-on-primary transition-colors shadow-sm inline-flex items-center gap-1 font-bold" data-path="contact-and-help" href="#"><span class="material-symbols-outlined text-[16px]">contacts</span> Helpline Directory →</a></div><div class="flex flex-col sm:flex-row items-stretch sm:items-center gap-3 pt-1"><a class="flex-1 inline-flex items-center justify-center gap-2 bg-primary hover:bg-primary-container text-on-primary py-3.5 px-6 font-label-lg text-label-lg font-bold shadow-md transition-all text-center tracking-wide border-2 border-primary-container" data-path="register-complaint" href="#register-complaint"><span class="material-symbols-outlined text-[24px]">assignment_add</span><span class="">REGISTER A COMPLAINT / ఫిర్యాదు నమోదు చేయండి</span><span class="material-symbols-outlined text-[18px]">arrow_forward</span></a><a class="inline-flex items-center justify-center gap-2 bg-secondary text-on-secondary hover:bg-secondary-container py-3.5 px-5 font-label-lg text-label-lg font-bold shadow-sm transition-all text-center" href="#quick-tracker-section" onclick="document.getElementById('quick-tracker-section').scrollIntoView({behavior: 'smooth'});"><span class="material-symbols-outlined text-[20px]">search</span><span class="">TRACK COMPLAINT / స్థితిని తనిఖీ</span></a></div></div>
+
+</div>
+
+<!-- Official Visual Emblem & Portrait Framing -->
+
+<div class="lg:col-span-4 flex flex-col gap-space-sm">
+
+<div class="bg-surface-container p-space-md text-center flex flex-col items-center justify-center shadow-sm relative">
+
+<img class="w-full h-44 object-cover mb-space-sm shadow-sm" data-alt="Official high-resolution architectural photograph of Visakhapatnam Municipal Corporation administrative complex, with Indian national flag waving, clear daylight, sharp civic realism, institutional blue sky." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDGnhHxbYNhojxHvYBNU4zfYP_uoTiZeKj9IIAKTgDywgCaIgsmlUxOJuyUEBD26wmPxcWif9-VzJ_iM4eVPMEL4rtX3dUmWngQBbd5Jp-uXqq_SEVEKM5AdVodFc2SbFcR4joFK0oWDP_tj9KsB0NhiNCsh7pGgxNp6r3AHx-6QzfwvDFtzlUJDsbGRYlosEmlgr5Qf7Mk1VcAGcJc9KgC39ve0zLsoRrwnV2XzmY">
+
+<div class="font-label-md text-label-md font-bold text-primary">Greater Visakhapatnam Smart Civic Control Room</div>
+
+<div class="font-label-sm text-label-sm text-on-surface-variant">24x7 Multi-Department Command &amp; Redressal Center</div>
+
+<div class="w-full grid grid-cols-2 gap-2 mt-space-sm pt-space-xs bg-surface-container-lowest p-2 shadow-sm">
+
+<div class="text-center">
+
+<div class="font-headline-sm text-headline-sm text-primary font-bold">98</div>
+
+<div class="font-label-sm text-label-sm text-on-surface-variant">Municipal Wards</div>
+
+</div>
+
+<div class="text-center">
+
+<div class="font-headline-sm text-headline-sm text-tertiary-container font-bold">2.4 hrs</div>
+
+<div class="font-label-sm text-label-sm text-on-surface-variant">Avg. First Response</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- 3. FOUR LARGE PRIMARY SERVICE ACTION CARDS -->
+
+<section class="w-full bg-background py-space-lg" id="citizen-services">
+
+<div class="max-w-7xl mx-auto px-margin lg:px-margin-desktop">
+
+<div class="flex flex-col md:flex-row items-baseline justify-between mb-space-md">
+
+<div>
+
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-secondary font-bold">Core Municipal Services</span>
+
+<h2 class="font-headline-lg text-headline-lg text-primary font-bold">
+
+            Public Civic Redressal Portals / ప్రధాన పౌర సేవలు
+
+          </h2>
+
+</div>
+
+<div class="font-label-md text-label-md text-on-surface-variant">
+
+          Select an authorized action channel below
+
+        </div>
+
+</div>
+
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-gutter-desktop"><div class="bg-surface-container-lowest p-space-md flex flex-col justify-between shadow-md hover:shadow-lg transition-all border-t-4 border-primary"><div class="flex flex-col gap-space-sm"><div class="w-12 h-12 bg-primary text-on-primary flex items-center justify-center shadow-sm"><span class="material-symbols-outlined text-[28px]">edit_document</span></div><div><span class="text-label-sm font-label-sm text-secondary uppercase font-bold">Service 01 • Citizen Entry Form</span><h3 class="font-headline-sm text-headline-sm text-primary font-bold mt-0.5">REGISTER A COMPLAINT</h3><p class="font-label-md text-label-md text-secondary font-semibold">కొత్త ఫిర్యాదు నమోదు చేయండి</p></div><p class="font-body-md text-body-md text-on-surface-variant">Submit civic issues with voice note in Telugu, GPS geotagged photo, or landmark text. Instant Ward auto-routing.</p></div><div class="mt-space-md pt-space-sm"><a class="w-full inline-flex items-center justify-center gap-2 bg-primary text-on-primary py-3 px-4 font-label-lg text-label-lg hover:bg-primary-container transition-colors shadow-sm font-bold" data-path="register-complaint" href="#register-complaint"><span class="">Proceed / నమోదు ప్రారంభించండి →</span></a></div></div><div class="bg-surface-container-lowest p-space-md flex flex-col justify-between shadow-md hover:shadow-lg transition-all border-t-4 border-tertiary-container"><div class="flex flex-col gap-space-sm"><div class="w-12 h-12 bg-tertiary-container text-on-tertiary flex items-center justify-center shadow-sm"><span class="material-symbols-outlined text-[28px]">travel_explore</span></div><div><span class="text-label-sm font-label-sm text-tertiary-container uppercase font-bold">Service 02 • Real-Time Ledger</span><h3 class="font-headline-sm text-headline-sm text-primary font-bold mt-0.5">TRACK YOUR COMPLAINT</h3><p class="font-label-md text-label-md text-secondary font-semibold">ఫిర్యాదు స్థితిని తనిఖీ చేయండి</p></div><p class="font-body-md text-body-md text-on-surface-variant">Live milestone tracking with 10-digit Complaint ID. View assigned officer details, field photos, and SLA countdowns.</p></div><div class="mt-space-md pt-space-sm"><a class="w-full inline-flex items-center justify-center gap-2 bg-tertiary-container text-on-tertiary py-3 px-4 font-label-lg text-label-lg hover:bg-tertiary transition-colors shadow-sm font-bold" data-path="track-complaint" href="#quick-tracker-section" onclick="document.getElementById('quick-tracker-section').scrollIntoView({behavior: 'smooth'});"><span class="">Search / శోధించండి →</span></a></div></div><div class="bg-surface-container-lowest p-space-md flex flex-col justify-between shadow-md hover:shadow-lg transition-all border-t-4 border-secondary-container"><div class="flex flex-col gap-space-sm"><div class="w-12 h-12 bg-secondary-container text-on-secondary flex items-center justify-center shadow-sm"><span class="material-symbols-outlined text-[28px]">report_problem</span></div><div><span class="text-label-sm font-label-sm text-secondary uppercase font-bold">Service 03 • Urgent Enforcement</span><h3 class="font-headline-sm text-headline-sm text-primary font-bold mt-0.5">REPORT CIVIC VIOLATION</h3><p class="font-label-md text-label-md text-secondary font-semibold">పౌర ఉల్లంఘన నివేదిక</p></div><p class="font-body-md text-body-md text-on-surface-variant">Encroachments, illegal waste dumping, open sewage, road breaches, hazardous streetlights, or water mains rupture.</p></div><div class="mt-space-md pt-space-sm"><a class="w-full inline-flex items-center justify-center gap-2 bg-secondary text-on-secondary py-3 px-4 font-label-lg text-label-lg hover:bg-secondary-container transition-colors shadow-sm font-bold" data-path="register-complaint" href="#register-complaint"><span class="">Report / నివేదించండి →</span></a></div></div><div class="bg-surface-container-lowest p-space-md flex flex-col justify-between shadow-md hover:shadow-lg transition-all border-t-4 border-primary-container"><div class="flex flex-col gap-space-sm"><div class="w-12 h-12 bg-primary-container text-on-primary flex items-center justify-center shadow-sm"><span class="material-symbols-outlined text-[28px]">query_stats</span></div><div><span class="text-label-sm font-label-sm text-primary uppercase font-bold">Service 04 • Open Governance</span><h3 class="font-headline-sm text-headline-sm text-primary font-bold mt-0.5">PUBLIC ACCOUNTABILITY</h3><p class="font-label-md text-label-md text-secondary font-semibold">ప్రజా జవాబుదారీ డాష్‌బోర్డ్</p></div><p class="font-body-md text-body-md text-on-surface-variant">Ward-wise resolution ledger, pending SLA breaches, departmental performance matrices, and live public accountability.</p></div><div class="mt-space-md pt-space-sm"><a class="w-full inline-flex items-center justify-center gap-2 bg-primary-container text-on-primary py-3 px-4 font-label-lg text-label-lg hover:bg-primary transition-colors shadow-sm font-bold" data-path="public-accountability-dashboard" href="#public-accountability"><span class="">View Data / పరిశీలించండి →</span></a></div></div></div>
+
+</div>
+
+</section>
+
+<!-- 4. QUICK COMPLAINT TRACKING BOX -->
+
+<section class="w-full bg-surface-container-low py-space-lg" id="quick-tracker-section">
+
+<div class="max-w-7xl mx-auto px-margin lg:px-margin-desktop">
+
+<div class="bg-surface-container-lowest p-space-md lg:p-space-lg shadow-md">
+
+<div class="flex flex-col md:flex-row md:items-center justify-between gap-space-sm mb-space-md bg-primary p-space-sm text-on-primary">
+
+<div class="flex items-center gap-3">
+
+<span class="material-symbols-outlined text-[28px] text-primary-fixed">find_in_page</span>
+
+<div>
+
+<h3 class="font-headline-sm text-headline-sm font-bold">Quick Grievance Status Enquiry</h3>
+
+<p class="font-label-sm text-label-sm text-primary-fixed-dim">త్వరిత ఫిర్యాదు స్థితి తనిఖీ పోర్టల్</p>
+
+</div>
+
+</div>
+
+<div class="text-label-sm font-label-sm bg-primary-container px-3 py-1 text-on-primary self-start md:self-auto">
+
+            Direct Database Sync (24x7)
+
+          </div>
+
+</div>
+
+<form class="grid grid-cols-1 md:grid-cols-12 gap-gutter items-end" id="quick-track-form" onsubmit="event.preventDefault(); document.getElementById('tracking-sample-result').classList.remove('hidden');">
+
+<div class="md:col-span-5 flex flex-col gap-1">
+
+<label class="font-label-lg text-label-lg text-primary font-bold" for="complaint-id">
+
+              Complaint Registration ID / ఫిర్యాదు సంఖ్య <span class="text-error">*</span>
+
+</label>
+
+<span class="font-label-sm text-label-sm text-on-surface-variant">Enter 10-Digit unique reference assigned during submission</span>
+
+<input class="w-full px-4 py-3 bg-surface-container-lowest text-on-surface font-label-lg text-label-lg focus:outline-none focus:bg-surface-container-low uppercase tracking-wider" id="complaint-id" placeholder="e.g. VSKP-2025-08421" required="" type="text" value="VSKP-2025-08421">
+
+</div>
+
+<div class="md:col-span-4 flex flex-col gap-1">
+
+<label class="font-label-lg text-label-lg text-primary font-bold" for="citizen-mobile">
+
+              Registered Mobile Number / ఫోన్ నంబరు <span class="text-error">*</span>
+
+</label>
+
+<span class="font-label-sm text-label-sm text-on-surface-variant">Enter 10-digit mobile number for OTP / Identity validation</span>
+
+<input class="w-full px-4 py-3 bg-surface-container-lowest text-on-surface font-label-lg text-label-lg focus:outline-none focus:bg-surface-container-low" id="citizen-mobile" placeholder="e.g. 9848022338" required="" type="tel" value="9848022338">
+
+</div>
+
+<div class="md:col-span-3 flex flex-col gap-1">
+
+<button class="w-full py-3.5 px-6 bg-secondary text-on-secondary font-label-lg text-label-lg font-bold hover:bg-secondary-container transition-colors shadow-sm flex items-center justify-center gap-2" type="submit">
+
+<span class="material-symbols-outlined text-[20px]">search</span>
+
+<span class="">Check Status (చూడండి)</span>
+
+</button>
+
+</div>
+
+</form>
+
+<!-- Quick Sample Test Chips -->
+
+<div class="mt-space-md pt-space-sm bg-surface-container-low p-space-sm flex flex-wrap items-center gap-2"><span class="font-label-sm text-label-sm font-bold text-on-surface-variant">Quick Test Cases (నమూనా క్లిక్ చేయండి):</span><button class="bg-surface-container-lowest px-2 py-1 font-label-sm text-label-sm text-primary hover:bg-primary hover:text-on-primary shadow-sm" onclick="document.getElementById('complaint-id').value='VSKP-2025-08421'; document.getElementById('citizen-mobile').value='9848022338'; document.getElementById('tracking-sample-result').classList.remove('hidden'); document.getElementById('result-ticket-id').innerText='Grievance #VSKP-2025-08421'; document.getElementById('result-status-badge').innerText='Under Inspection (విచారణలో ఉన్నది)'; document.getElementById('result-category-meta').innerHTML='Category: &lt;strong&gt;Sanitation &amp; Solid Waste Accumulation&lt;/strong&gt; • Location: &lt;strong&gt;Ward 14 (Near Siripuram Junction)&lt;/strong&gt;'; document.getElementById('result-sla-timer').innerText='14 Hours 32 Mins';" type="button">#VSKP-2025-08421 (In Progress - Ward 14)</button><button class="bg-surface-container-lowest px-2 py-1 font-label-sm text-label-sm text-tertiary-container hover:bg-tertiary-container hover:text-on-tertiary shadow-sm" onclick="document.getElementById('complaint-id').value='VSKP-2025-07902'; document.getElementById('citizen-mobile').value='9876543210'; document.getElementById('tracking-sample-result').classList.remove('hidden'); document.getElementById('result-ticket-id').innerText='Grievance #VSKP-2025-07902'; document.getElementById('result-status-badge').innerText='Resolved &amp; Closed (పరిష్కరించబడింది)'; document.getElementById('result-category-meta').innerHTML='Category: &lt;strong&gt;Drinking Water Pipeline Rupture&lt;/strong&gt; • Location: &lt;strong&gt;Ward 32 (Daba Gardens)&lt;/strong&gt;'; document.getElementById('result-sla-timer').innerText='Closed in 18.5 Hrs';" type="button">#VSKP-2025-07902 (Resolved - Ward 32 Water Supply)</button><button class="bg-surface-container-lowest px-2 py-1 font-label-sm text-label-sm text-secondary hover:bg-secondary hover:text-on-secondary shadow-sm" onclick="document.getElementById('complaint-id').value='VSKP-2025-09115'; document.getElementById('citizen-mobile').value='9123456780'; document.getElementById('tracking-sample-result').classList.remove('hidden'); document.getElementById('result-ticket-id').innerText='Grievance #VSKP-2025-09115'; document.getElementById('result-status-badge').innerText='Escalated to Zonal Commissioner (కమిషనర్ సమీక్ష)'; document.getElementById('result-category-meta').innerHTML='Category: &lt;strong&gt;Main Road Severe Pothole Crater&lt;/strong&gt; • Location: &lt;strong&gt;Ward 08 (Seethammadhara)&lt;/strong&gt;'; document.getElementById('result-sla-timer').innerText='Overdue by 6 Hours';" type="button">#VSKP-2025-09115 (Escalated - Ward 08 Pothole)</button></div>
+
+<!-- Sample Dynamic Result Box (Interactive Feedback) -->
+
+<div class="mt-space-md p-space-md bg-surface-container shadow-sm border border-surface-variant" id="tracking-sample-result"><div class="flex flex-col md:flex-row md:items-center justify-between gap-space-sm pb-space-sm bg-surface-container-lowest p-space-sm"><div><div class="flex items-center gap-2"><span class="font-headline-sm text-headline-sm font-bold text-primary" id="result-ticket-id">Grievance #VSKP-2025-08421</span><span class="bg-primary text-on-primary px-2 py-0.5 font-label-sm text-label-sm uppercase" id="result-status-badge">Under Inspection (విచారణలో ఉన్నది)</span></div><p class="font-body-md text-body-md text-on-surface-variant mt-1" id="result-category-meta">Category: <strong>Sanitation &amp; Solid Waste Accumulation</strong> • Location: <strong>Ward 14 (Near Siripuram Junction)</strong></p></div><div class="text-right"><div class="font-label-sm text-label-sm text-on-surface-variant">SLA Deadline Remaining</div><div class="font-headline-sm text-headline-sm text-secondary font-bold" id="result-sla-timer">14 Hours 32 Mins</div></div></div><div class="grid grid-cols-1 sm:grid-cols-4 gap-2 mt-space-sm text-center"><div class="bg-tertiary-container text-on-tertiary p-2 shadow-sm"><div class="font-label-sm text-label-sm font-bold">1. SUBMITTED</div><div class="text-[11px] opacity-90">14 Oct, 09:15 AM</div></div><div class="bg-tertiary-container text-on-tertiary p-2 shadow-sm"><div class="font-label-sm text-label-sm font-bold">2. WARD ASSIGNED</div><div class="text-[11px] opacity-90">14 Oct, 10:40 AM (AE GVMC)</div></div><div class="bg-primary text-on-primary p-2 shadow-sm" id="stepper-step-3"><div class="font-label-sm text-label-sm font-bold">3. FIELD INSPECTION</div><div class="text-[11px] opacity-90">Work Order Issued #441</div></div><div class="bg-surface-container-lowest text-on-surface-variant p-2 shadow-sm" id="stepper-step-4"><div class="font-label-sm text-label-sm font-bold">4. CITIZEN SIGN-OFF</div><div class="text-[11px] text-outline">Awaiting Inspection Proof</div></div></div><div class="mt-space-sm flex flex-col sm:flex-row sm:items-center justify-between gap-space-sm pt-2 border-t border-surface-variant"><span class="font-label-sm text-label-sm text-on-surface-variant" id="result-officer-info">Assigned Field Officer: <strong>Shri M. Ramesh (Assistant Executive Engineer - Zone 3)</strong></span><a class="inline-flex items-center gap-1 font-label-md text-label-md text-on-primary bg-primary hover:bg-primary-container px-3 py-1.5 shadow-sm transition-colors" data-path="track-complaint" href="#" id="view-audit-trail-btn"><span class="material-symbols-outlined text-[16px]">verified</span><span class="">View Full Redressal Audit Trail &amp; Before/After Proof →</span></a></div></div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- 5. HOW JANSAKSHI AI WORKS (3-STEP CITIZEN PROCESS) -->
+
+<section class="w-full bg-background py-space-lg lg:py-space-xl">
+
+<div class="max-w-7xl mx-auto px-margin lg:px-margin-desktop">
+
+<div class="text-center max-w-3xl mx-auto mb-space-lg">
+
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-secondary font-bold">
+
+          Transparent Public Procedure
+
+        </span>
+
+<h2 class="font-headline-xl text-headline-xl text-primary font-bold">
+
+          How JanSakshi AI Works / పౌర పరిష్కార విధానం
+
+        </h2>
+
+<p class="font-body-md text-body-md text-on-surface-variant mt-2">
+
+          An automated, accountable 3-step bridge connecting citizens directly with ward-level executive municipal officers without middle agents.
+
+        </p>
+
+</div>
+
+<div class="grid grid-cols-1 md:grid-cols-3 gap-gutter-desktop relative"><div class="bg-surface-container-lowest p-space-lg flex flex-col justify-between shadow-md relative border-t-4 border-primary"><div class="flex flex-col gap-space-sm"><div class="flex items-center justify-between"><span class="w-10 h-10 bg-primary text-on-primary flex items-center justify-center font-headline-sm text-headline-sm font-bold shadow-sm">01</span><span class="material-symbols-outlined text-primary text-[32px]">mic</span></div><div><h3 class="font-headline-sm text-headline-sm text-primary font-bold">Register Grievance</h3><p class="font-label-md text-label-md text-secondary font-semibold">దశ 1: ఫిర్యాదు నమోదు</p></div><p class="font-body-md text-body-md text-on-surface">Submit through Telugu voice note, text, or geotagged photo. JanSakshi AI automatically translates, transcribes, categorizes the grievance, and auto-detects the exact Ward and Landmark.</p><div class="bg-surface-container p-2 font-label-sm text-label-sm text-on-surface-variant">• AI Automatic Telugu NLP Parser<br>• Geotagged coordinate verification<br>• Instant 10-Digit SMS acknowledgement</div></div><div class="mt-space-md pt-2 border-t border-surface-variant"><span class="font-label-sm text-label-sm text-secondary font-bold">Input Time: Under 60 Seconds</span></div></div><div class="bg-surface-container-lowest p-space-lg flex flex-col justify-between shadow-md relative border-t-4 border-secondary"><div class="flex flex-col gap-space-sm"><div class="flex items-center justify-between"><span class="w-10 h-10 bg-secondary text-on-secondary flex items-center justify-center font-headline-sm text-headline-sm font-bold shadow-sm">02</span><span class="material-symbols-outlined text-secondary text-[32px]">assignment_turned_in</span></div><div><h3 class="font-headline-sm text-headline-sm text-primary font-bold">Action &amp; Field Inspection</h3><p class="font-label-md text-label-md text-secondary font-semibold">దశ 2: క్షేత్ర స్థాయి తనిఖీ</p></div><p class="font-body-md text-body-md text-on-surface">Directly assigned to GVMC/Ward executive officer with a strict statutory SLA countdown timer. Departmental teams inspect and dispatch field rectification crews.</p><div class="bg-surface-container p-2 font-label-sm text-label-sm text-on-surface-variant">• Time-bound Statutory SLA enforcement<br>• Auto-escalation if delayed &gt; 48 hours<br>• Direct SMS alerts with Officer Phone Number</div></div><div class="mt-space-md pt-2 border-t border-surface-variant"><span class="font-label-sm text-label-sm text-secondary font-bold">SLA Limit: 24 to 72 Hours</span></div></div><div class="bg-surface-container-lowest p-space-lg flex flex-col justify-between shadow-md relative border-t-4 border-tertiary-container"><div class="flex flex-col gap-space-sm"><div class="flex items-center justify-between"><span class="w-10 h-10 bg-tertiary-container text-on-tertiary flex items-center justify-center font-headline-sm text-headline-sm font-bold shadow-sm">03</span><span class="material-symbols-outlined text-tertiary-container text-[32px]">verified_user</span></div><div><h3 class="font-headline-sm text-headline-sm text-primary font-bold">Citizen Verification &amp; Sign-Off</h3><p class="font-label-md text-label-md text-secondary font-semibold">దశ 3: పౌరుల నిర్ధారణ</p></div><p class="font-body-md text-body-md text-on-surface">Officer uploads mandatory 'Before &amp; After' photographic evidence. The complaint is strictly NOT closed until the citizen receives an OTP and confirms genuine satisfaction.</p><div class="bg-surface-container p-2 font-label-sm text-label-sm text-on-surface-variant">• Mandatory photo verification<br>• Citizen OTP Closure confirmation<br>• Instant Re-open privilege if dissatisfied</div></div><div class="mt-space-md pt-2 border-t border-surface-variant"><span class="font-label-sm text-label-sm text-tertiary-container font-bold">Zero Bogus Closures Guaranteed</span></div></div></div>
+
+</div>
+
+</section>
+
+<!-- 6. PUBLIC GRIEVANCE SNAPSHOT & PERFORMANCE METRICS -->
+
+<section class="w-full bg-surface-container-low py-space-lg lg:py-space-xl" id="public-accountability">
+
+<div class="max-w-7xl mx-auto px-margin lg:px-margin-desktop">
+
+<div class="bg-surface-container-lowest p-space-md lg:p-space-lg shadow-md">
+
+<!-- Section Header with Official Government Disclaimer -->
+
+<div class="flex flex-col gap-2 mb-space-md bg-surface-container p-space-sm"><div class="flex flex-col md:flex-row md:items-center justify-between gap-space-sm pb-2 border-b border-surface-variant"><div><div class="flex items-center gap-2"><span class="material-symbols-outlined text-primary text-[24px]">monitoring</span><h3 class="font-headline-md text-headline-md text-primary font-bold">Public Grievance Redressal Metrics &amp; Performance Snapshot</h3></div><p class="font-label-md text-label-md text-secondary font-semibold">విశాఖపట్నం జిల్లా ప్రజా జవాబుదారీ గణాంకాలు</p></div><div class="flex items-center gap-2 bg-surface-container-lowest px-3 py-1 text-on-surface-variant font-label-sm text-label-sm shadow-sm"><span class="w-2.5 h-2.5 rounded-full bg-tertiary-container animate-pulse"></span><span class="">Live Data Sync: Today 10:45 AM</span></div></div><div class="bg-[#fff8e1] border-l-4 border-[#f59e0b] p-2 flex items-center gap-2 text-on-surface text-label-sm font-label-sm"><span class="material-symbols-outlined text-[#d97706] text-[20px]">warning</span><span class=""><strong>⚠️ DEMONSTRATION DATA (నమూనా గణాంకాలు):</strong> Simulated municipal metrics for Greater Visakhapatnam Municipal Corporation (GVMC) public accountability demonstration.</span></div></div>
+
+<!-- 5 Key Stats Indicator Cards -->
+
+<div class="grid grid-cols-2 md:grid-cols-5 gap-space-sm mb-space-lg">
+
+<!-- Total Complaints -->
+
+<div class="bg-surface-container p-space-md text-center shadow-sm">
+
+<div class="font-headline-xl text-headline-xl text-primary font-bold">48,290</div>
+
+<div class="font-label-md text-label-md text-on-surface font-semibold mt-1">Total Complaints</div>
+
+<div class="font-label-sm text-label-sm text-on-surface-variant">నమోదైన మొత్తం సమస్యలు</div>
+
+</div>
+
+<!-- Resolved Successfully -->
+
+<div class="bg-surface-container p-space-md text-center shadow-sm">
+
+<div class="font-headline-xl text-headline-xl text-tertiary-container font-bold">42,810</div>
+
+<div class="font-label-md text-label-md text-tertiary-container font-semibold mt-1">Resolved (88.6%)</div>
+
+<div class="font-label-sm text-label-sm text-on-surface-variant">పరిష్కరించబడినవి</div>
+
+</div>
+
+<!-- In-Progress -->
+
+<div class="bg-surface-container p-space-md text-center shadow-sm">
+
+<div class="font-headline-xl text-headline-xl text-primary-container font-bold">4,120</div>
+
+<div class="font-label-md text-label-md text-primary-container font-semibold mt-1">In-Progress</div>
+
+<div class="font-label-sm text-label-sm text-on-surface-variant">ప్రస్తుత విచారణలో</div>
+
+</div>
+
+<!-- Escalated to Commissioner -->
+
+<div class="bg-surface-container p-space-md text-center shadow-sm">
+
+<div class="font-headline-xl text-headline-xl text-error font-bold">1,360</div>
+
+<div class="font-label-md text-label-md text-error font-semibold mt-1">Escalated Overdue</div>
+
+<div class="font-label-sm text-label-sm text-on-surface-variant">కమిషనర్ స్థాయి పరిశీలన</div>
+
+</div>
+
+<!-- Average Redressal Time -->
+
+<div class="bg-surface-container p-space-md text-center col-span-2 md:col-span-1 shadow-sm">
+
+<div class="font-headline-xl text-headline-xl text-secondary font-bold">3.2 Days</div>
+
+<div class="font-label-md text-label-md text-secondary font-semibold mt-1">Avg Redressal SLA</div>
+
+<div class="font-label-sm text-label-sm text-on-surface-variant">సగటు పరిష్కార సమయం</div>
+
+</div>
+
+</div>
+
+<!-- Data Visualization & Ward Comparison Grid -->
+
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter-desktop items-center">
+
+<!-- Visual SVG Chart Box -->
+
+<div class="lg:col-span-6 bg-surface-container p-space-md shadow-sm">
+
+<div class="flex items-center justify-between mb-space-sm pb-1">
+
+<span class="font-label-lg text-label-lg font-bold text-primary">Department-Wise Resolution Breakdown</span>
+
+<span class="font-label-sm text-label-sm text-on-surface-variant">Ward Performance</span>
+
+</div>
+
+<!-- SVG Horizontal Progress Bars -->
+
+<div class="flex flex-col gap-space-sm pt-2">
+
+<div>
+
+<div class="flex justify-between font-label-sm text-label-sm text-on-surface mb-1">
+
+<span class="">GVMC Public Health &amp; Sanitation (పారిశుద్ధ్యం)</span>
+
+<span class="font-bold">92.4% (21,400 Cases)</span>
+
+</div>
+
+<div class="w-full h-3 bg-surface-container-highest overflow-hidden">
+
+<div class="h-full bg-primary-container" style="width: 92.4%;"></div>
+
+</div>
+
+</div>
+
+<div>
+
+<div class="flex justify-between font-label-sm text-label-sm text-on-surface mb-1">
+
+<span class="">Water Works &amp; Drainage Cell (నీటి సరఫరా &amp; డ్రైనేజీ)</span>
+
+<span class="font-bold">87.1% (12,110 Cases)</span>
+
+</div>
+
+<div class="w-full h-3 bg-surface-container-highest overflow-hidden">
+
+<div class="h-full bg-tertiary-container" style="width: 87.1%;"></div>
+
+</div>
+
+</div>
+
+<div>
+
+<div class="flex justify-between font-label-sm text-label-sm text-on-surface mb-1">
+
+<span class="">Roads &amp; Pothole Engineering (రోడ్లు &amp; ట్రాఫిక్)</span>
+
+<span class="font-bold">78.5% (8,940 Cases)</span>
+
+</div>
+
+<div class="w-full h-3 bg-surface-container-highest overflow-hidden">
+
+<div class="h-full bg-secondary-container" style="width: 78.5%;"></div>
+
+</div>
+
+</div>
+
+<div>
+
+<div class="flex justify-between font-label-sm text-label-sm text-on-surface mb-1">
+
+<span class="">APCPDCL Streetlight &amp; Power Grid (విద్యుత్ సరఫరా)</span>
+
+<span class="font-bold">94.8% (5,840 Cases)</span>
+
+</div>
+
+<div class="w-full h-3 bg-surface-container-highest overflow-hidden">
+
+<div class="h-full bg-primary" style="width: 94.8%;"></div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<!-- Ward Table Quick Glimpse -->
+
+<div class="lg:col-span-6 bg-surface-container p-space-md shadow-sm">
+
+<div class="flex items-center justify-between mb-space-sm pb-1">
+
+<span class="font-label-lg text-label-lg font-bold text-primary">Top Performing Visakhapatnam Wards</span>
+
+<a class="font-label-sm text-label-sm text-secondary font-bold hover:underline" data-path="public-accountability-dashboard" href="#">Full 98 Wards Ledger →</a>
+
+</div>
+
+<div class="overflow-x-auto">
+
+<table class="w-full text-left font-label-sm text-label-sm">
+
+<thead class="bg-primary text-on-primary">
+
+<tr>
+
+<th class="py-2 px-3">Ward #</th>
+
+<th class="py-2 px-3">Zone / Locality</th>
+
+<th class="py-2 px-3">Active Issues</th>
+
+<th class="py-2 px-3">Resolution Rate</th>
+
+</tr>
+
+</thead>
+
+<tbody class="divide-y divide-surface-variant">
+
+<tr class="bg-surface-container-lowest">
+
+<td class="py-2 px-3 font-bold text-primary">Ward 14</td>
+
+<td class="py-2 px-3">Zone 3 - Siripuram &amp; VIP Road</td>
+
+<td class="py-2 px-3">42</td>
+
+<td class="py-2 px-3 text-tertiary-container font-bold">96.8%</td>
+
+</tr>
+
+<tr class="bg-surface-container-low">
+
+<td class="py-2 px-3 font-bold text-primary">Ward 28</td>
+
+<td class="py-2 px-3">Zone 2 - Jagadamba &amp; Old Town</td>
+
+<td class="py-2 px-3">89</td>
+
+<td class="py-2 px-3 text-tertiary-container font-bold">91.4%</td>
+
+</tr>
+
+<tr class="bg-surface-container-lowest">
+
+<td class="py-2 px-3 font-bold text-primary">Ward 52</td>
+
+<td class="py-2 px-3">Zone 4 - Gajuwaka Main</td>
+
+<td class="py-2 px-3">134</td>
+
+<td class="py-2 px-3 text-secondary font-bold">84.2%</td>
+
+</tr>
+
+<tr class="bg-surface-container-low">
+
+<td class="py-2 px-3 font-bold text-primary">Ward 71</td>
+
+<td class="py-2 px-3">Zone 5 - Madhurawada IT SEZ</td>
+
+<td class="py-2 px-3">63</td>
+
+<td class="py-2 px-3 text-tertiary-container font-bold">93.1%</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- 7. HELP & CITIZEN ASSISTANCE CENTER & BILINGUAL FAQS -->
+
+<section class="w-full bg-background py-space-lg lg:py-space-xl" id="contact-and-help">
+
+<div class="max-w-7xl mx-auto px-margin lg:px-margin-desktop">
+
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter-desktop">
+
+<!-- Physical Helpdesk and Contact Options -->
+
+<div class="lg:col-span-5 flex flex-col gap-space-md">
+
+<div class="bg-surface-container-lowest p-space-md lg:p-space-lg shadow-md">
+
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-secondary font-bold">
+
+              Citizen Support Desks
+
+            </span>
+
+<h3 class="font-headline-sm text-headline-sm text-primary font-bold mt-1">
+
+              Help &amp; Grievance Contact Center
+
+            </h3>
+
+<p class="font-label-md text-label-md text-secondary font-semibold mb-space-md">
+
+              పౌర సహాయ కేంద్రం &amp; కార్యాలయ వివరాలు
+
+            </p>
+
+<div class="flex flex-col gap-space-md"><div class="flex items-start justify-between gap-3 bg-surface-container p-3 border-l-4 border-primary"><div class="flex items-start gap-3"><span class="material-symbols-outlined text-primary text-[28px] shrink-0 mt-0.5">phone_in_talk</span><div><div class="font-label-md text-label-md font-bold text-on-surface">Toll-Free Grievance Helpline</div><div class="font-headline-sm text-headline-sm text-primary font-bold">1905 / 1800-425-0001</div><div class="font-label-sm text-label-sm text-on-surface-variant">Available 24x7 in Telugu and English</div></div></div><a class="bg-primary text-on-primary px-3 py-1.5 font-label-sm text-label-sm font-bold shadow-sm hover:bg-primary-container transition-colors shrink-0" href="tel:1905">Call 1905</a></div><div class="flex items-start justify-between gap-3 bg-surface-container p-3 border-l-4 border-tertiary-container"><div class="flex items-start gap-3"><span class="material-symbols-outlined text-tertiary-container text-[28px] shrink-0 mt-0.5">chat</span><div><div class="font-label-md text-label-md font-bold text-on-surface">WhatsApp Citizen Bot (సహాయం)</div><div class="font-headline-sm text-headline-sm text-tertiary-container font-bold">+91 891 256 0000</div><div class="font-label-sm text-label-sm text-on-surface-variant">Send 'HI' or record Telugu voice note</div></div></div><a class="bg-tertiary-container text-on-tertiary px-3 py-1.5 font-label-sm text-label-sm font-bold shadow-sm hover:bg-tertiary transition-colors shrink-0" href="https://wa.me/918912560000" target="_blank">Chat Now</a></div><div class="flex items-start gap-3 bg-surface-container p-3 border-l-4 border-secondary"><span class="material-symbols-outlined text-secondary text-[28px] shrink-0 mt-0.5">event</span><div><div class="font-label-md text-label-md font-bold text-on-surface">Spandana Ward Grievance Camps</div><div class="font-body-md text-body-md text-on-surface">Every Monday 10:00 AM to 1:30 PM</div><div class="font-label-sm text-label-sm text-on-surface-variant">At all 98 Ward Secretariats (సచివాలయాలు)</div></div></div><div class="flex items-start gap-3 bg-surface-container p-3 border-l-4 border-outline"><span class="material-symbols-outlined text-primary text-[28px] shrink-0 mt-0.5">apartment</span><div><div class="font-label-md text-label-md font-bold text-on-surface">Central Grievance Office</div><div class="font-body-md text-body-md text-on-surface">Municipal Administration Complex, Asilmetta Junction, Visakhapatnam - 530002.</div></div></div></div>
+
+</div>
+
+</div>
+
+<!-- Bilingual FAQs for Digital Inclusion & Elders -->
+
+<div class="lg:col-span-7 flex flex-col gap-space-sm">
+
+<div class="bg-surface-container-lowest p-space-md lg:p-space-lg shadow-md">
+
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-secondary font-bold">
+
+              Digital Assistance &amp; Accessibility
+
+            </span>
+
+<h3 class="font-headline-sm text-headline-sm text-primary font-bold mt-1">
+
+              Frequently Asked Questions (తరచుగా అడిగే ప్రశ్నలు)
+
+            </h3>
+
+<p class="font-body-md text-body-md text-on-surface-variant mb-space-md">
+
+              Guidance for first-time digital users, senior citizens, and rural ward residents.
+
+            </p>
+
+<div class="flex flex-col gap-space-sm">
+
+<!-- FAQ Item 1 -->
+
+<div class="bg-surface-container-low p-space-sm">
+
+<div class="font-label-lg text-label-lg font-bold text-primary flex items-start justify-between gap-2">
+
+<span class="">1. Can I submit a complaint in Telugu without typing? (టైప్ చేయకుండా తెలుగులో ఫిర్యాదు చేయవచ్చా?)</span>
+
+<span class="material-symbols-outlined text-secondary shrink-0">check_circle</span>
+
+</div>
+
+<p class="font-body-md text-body-md text-on-surface-variant mt-2">
+
+                  Yes. JanSakshi AI allows you to record a voice note in Telugu or English. Our speech recognition automatically translates and converts your audio into an official departmental complaint with ward details.
+
+                </p>
+
+</div>
+
+<!-- FAQ Item 2 -->
+
+<div class="bg-surface-container-low p-space-sm">
+
+<div class="font-label-lg text-label-lg font-bold text-primary flex items-start justify-between gap-2">
+
+<span class="">2. How do I know if my issue is resolved genuinely? (సమస్య పరిష్కరించబడిందో లేదో ఎలా నిర్ధారించుకోవాలి?)</span>
+
+<span class="material-symbols-outlined text-secondary shrink-0">check_circle</span>
+
+</div>
+
+<p class="font-body-md text-body-md text-on-surface-variant mt-2">
+
+                  Ward officers are required to upload before-and-after photographic evidence. You will receive an SMS with an approval OTP. The complaint will remain 'Under Review' until you confirm satisfaction.
+
+                </p>
+
+</div>
+
+<!-- FAQ Item 3 -->
+
+<div class="bg-surface-container-low p-space-sm">
+
+<div class="font-label-lg text-label-lg font-bold text-primary flex items-start justify-between gap-2">
+
+<span class="">3. What if an officer ignores the grievance? (సమస్యను అధికారి నిర్లక్ష్యం చేస్తే ఏమి జరుగుతుంది?)</span>
+
+<span class="material-symbols-outlined text-secondary shrink-0">check_circle</span>
+
+</div>
+
+<p class="font-body-md text-body-md text-on-surface-variant mt-2">
+
+                  Every civic category has a strict SLA timer (e.g. 24 hours for streetlights, 48 hours for garbage). If unaddressed, the system auto-escalates the file directly to the Zonal Commissioner and alerts vigilance.
+
+                </p>
+
+</div>
+
+<!-- FAQ Item 4 -->
+
+<div class="bg-surface-container-low p-space-sm">
+
+<div class="font-label-lg text-label-lg font-bold text-primary flex items-start justify-between gap-2">
+
+<span class="">4. Is JanSakshi AI free of charge for all citizens? (ఈ సేవ పూర్తిగా ఉచితమా?)</span>
+
+<span class="material-symbols-outlined text-secondary shrink-0">check_circle</span>
+
+</div>
+
+<p class="font-body-md text-body-md text-on-surface-variant mt-2">
+
+                  Yes. JanSakshi AI is a 100% free municipal service. No citizen fees or service charges are applicable at any stage of registration or grievance redressal.
+
+                </p>
+
+</div>
+
+</div>
+
+<div class="mt-space-md pt-space-sm bg-surface-container p-space-sm flex flex-col sm:flex-row items-center justify-between gap-2">
+
+<span class="font-label-sm text-label-sm text-on-surface font-semibold">
+
+                Still have doubts or need step-by-step assistance?
+
+              </span>
+
+<a class="bg-primary text-on-primary px-3 py-1.5 font-label-sm text-label-sm hover:bg-primary-container transition-colors shadow-sm" data-path="contact-and-help" href="#">
+
+                Open Helpdesk Center →
+
+              </a>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+</div></main><footer class="w-full bg-primary text-on-primary mt-space-xl border-t border-primary-container"><div class="h-1 w-full flex"><div class="h-full w-1/3 bg-[#d97706]"></div><div class="h-full w-1/3 bg-[#ffffff]"></div><div class="h-full w-1/3 bg-[#15803d]"></div></div><div class="max-w-7xl mx-auto px-margin lg:px-margin-desktop py-space-xl"><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-gutter-desktop"><div class="flex flex-col gap-space-sm"><div class="flex items-center gap-2"><img alt="JanSakshi AI Emblem" class="h-10 w-auto object-contain brightness-0 invert" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAs_Ptbox78onUmD7acB7M58SjrdWPS7OtOe5Wk9veIBnYaY9AMaEuvh6wKyxXPxbsCEpzJ_T9n2fRB73MaU17cItJEBLJWzXWXgApVw4-_vnWaXy3N3PSE_mRGwmpSjrWscXwOqaitRXOuerkiIF5na-mwegHs4wwmIN04JRMWN6JXIwOnYwKaUvJbzS9lvdP_ohI4vPLNjO70T4MOdcDBqPxTA6X_YzmaapRFcuU"><span class="font-headline-sm text-headline-sm font-bold text-on-primary">JanSakshi AI</span></div><p class="text-body-sm font-body-sm text-on-primary-container">JanSakshi AI — Citizen Grievance &amp; Public Accountability Platform.</p><p class="text-label-sm font-label-sm text-on-primary-container mt-space-xs">Independent Demonstration Initiative</p></div><div class="flex flex-col gap-space-xs"><h4 class="text-label-lg font-label-lg font-bold border-b border-primary-container pb-1 text-on-primary">Civic Links &amp; Policies</h4><a class="text-body-sm font-body-sm text-on-primary-container hover:text-on-primary hover:underline transition-colors" href="#">Website Policies</a><a class="text-body-sm font-body-sm text-on-primary-container hover:text-on-primary hover:underline transition-colors" href="#">Help &amp; FAQs</a><a class="text-body-sm font-body-sm text-on-primary-container hover:text-on-primary hover:underline transition-colors" href="#">Privacy Policy</a><a class="text-body-sm font-body-sm text-on-primary-container hover:text-on-primary hover:underline transition-colors" href="#">Terms of Service</a><a class="text-body-sm font-body-sm text-on-primary-container hover:text-on-primary hover:underline transition-colors" href="#">Citizen Charter</a></div><div class="flex flex-col gap-space-xs"><h4 class="text-label-lg font-label-lg font-bold border-b border-primary-container pb-1 text-on-primary">Information &amp; Wards</h4><a class="text-body-sm font-body-sm text-on-primary-container hover:text-on-primary hover:underline transition-colors" href="#">Right to Information (RTI)</a><a class="text-body-sm font-body-sm text-on-primary-container hover:text-on-primary hover:underline transition-colors" href="#">Ward Offices Visakhapatnam</a><a class="text-body-sm font-body-sm text-on-primary-container hover:text-on-primary hover:underline transition-colors" href="#">Vigilance &amp; Public Transparency</a><a class="text-body-sm font-body-sm text-on-primary-container hover:text-on-primary hover:underline transition-colors" href="#">Interoperable Civic Standards</a><a class="text-body-sm font-body-sm text-on-primary-container hover:text-on-primary hover:underline transition-colors" href="#">Accessibility Statement</a></div><div class="flex flex-col gap-space-xs"><h4 class="text-label-lg font-label-lg font-bold border-b border-primary-container pb-1 text-on-primary">Civic Helpdesk Office</h4><p class="text-body-sm font-body-sm text-on-primary-container">JanSakshi AI Demonstration Desk, Visakhapatnam - 530002.</p><p class="text-body-sm font-body-sm text-on-primary mt-space-xs font-semibold">Toll-Free: 1905 / 1800-425-0001</p><p class="text-body-sm font-body-sm text-on-primary-container">Email: helpdesk@jansakshi.demo</p></div></div><div class="mt-space-lg pt-space-md border-t border-primary-container/60 text-center flex flex-col md:flex-row items-center justify-between gap-space-sm"><p class="text-label-sm font-label-sm text-on-primary-container text-left">Demonstration Public Grievance Prototype for Visakhapatnam civic issues. JanSakshi AI: Independent Demonstration Initiative for AI-Assisted Civic Grievance Management in Visakhapatnam.</p><div class="flex items-center gap-space-md text-label-sm font-label-sm text-on-primary-container"><span class="flex items-center gap-1"><span class="material-symbols-outlined text-[16px]">verified</span> Independent AI Initiative</span><span class="">Last Updated: Today 10:30 IST</span><span class="bg-primary-container px-2 py-1 text-on-primary font-bold">Visitors: 1,842,910</span></div></div></div></footer>
+
+
+
+
+
+
+
+<script src="js/app.js"></script>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const routes = {
+    "home": "index.html",
+    "register-complaint": "register.html",
+    "track-complaint": "track.html",
+    "citizen-portal": "track.html",
+    "officer-dashboard": "officer.html",
+    "citizen-services": "#citizen-services",
+    "public-accountability-dashboard": "#public-accountability",
+    "contact-and-help": "#contact-and-help"
+  };
+
+  document.querySelectorAll("a[data-path]").forEach(function (link) {
+    const destination = routes[link.getAttribute("data-path")];
+    if (destination) {
+      link.setAttribute("href", destination);
+    }
+  });
+});
+</script>
+
+</body></html>
